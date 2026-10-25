@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quofy</title>
+<link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,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">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<style>
+  :root{color-scheme:dark}
+  :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#0f172a;color:#f1f5f9;margin:0}
+  .tab.on{color:#fbbf24;border-color:#f59e0b}
+  .tab{border-bottom:2px solid transparent}
+  input,select,textarea{border:1px solid #334155;border-radius:.75rem;padding:.5rem .75rem;width:100%;background:#0f172a;color:#fff;font-size:.875rem}
+  input::placeholder,textarea::placeholder{color:#64748b}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:#f59e0b}
+  button:focus-visible{outline:2px solid #f59e0b;outline-offset:2px}
+  .btn{background:#f59e0b;color:#020617;border-radius:.75rem;padding:.5rem .9rem;font-weight:700;font-size:.875rem;transition:all .15s}
+  .btn:hover{background:#fbbf24}
+  .btn2{background:#334155;color:#fff;border-radius:.5rem;padding:.4rem .75rem;font-size:.75rem;font-weight:600}
+  .btn2:hover{background:#475569}
+.btn:disabled,.btn2:disabled{opacity:.4;cursor:not-allowed}
+  textarea{resize:vertical}
+  th{text-align:left;font-weight:600;color:#94a3b8;padding:.6rem 1rem;background:#0f172a;font-size:.75rem}
+  td{padding:.6rem 1rem;border-top:1px solid #334155;vertical-align:top}
+  .ic{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .mil{display:flex;align-items:center;gap:.7rem}
+  .mil .ic{width:30px;height:30px;padding:6px;border-radius:.5rem;box-sizing:border-box}
+  .ic-green{color:#34d399;background:rgba(52,211,153,.15)}
+  .ic-amber{color:#fbbf24;background:rgba(251,191,36,.15)}
+  .ic-red{color:#f87171;background:rgba(248,113,113,.15)}
+  .ic-sky{color:#38bdf8;background:rgba(56,189,248,.15)}
+  .ic-violet{color:#a78bfa;background:rgba(167,139,250,.15)}
+  .ic-teal{color:#2dd4bf;background:rgba(45,212,191,.15)}
+  .ic-pink{color:#f472b6;background:rgba(244,114,182,.15)}
+  .mi{display:flex;width:100%;align-items:center;justify-content:space-between;gap:.5rem;text-align:left;padding:.6rem .9rem;font-size:.875rem;border-radius:.6rem;color:#e2e8f0}
+  .mi:hover:not(:disabled){background:#334155}
+  .mi:disabled{opacity:.4;cursor:not-allowed}
+  .mi small{display:block;color:#94a3b8;font-size:.7rem;font-weight:400}
+  .badge{background:#0f172a;color:#fbbf24;border:1px solid #334155;border-radius:999px;padding:0 .5rem;font-size:.7rem;font-weight:700;min-width:1.4rem;text-align:center}
+  .msep{height:1px;background:#334155;margin:.35rem .5rem}
+  .mhead{font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:#64748b;padding:.4rem .9rem .15rem}
+
+  .card{background:rgba(30,41,59,.8);border:1px solid #334155;border-radius:1rem;padding:1.25rem}
+  .mode-personal .org-only,body:not(.mode-personal) .personal-only{display:none!important}
+  .mode-personal #phase{display:none}
+  .bar{height:.5rem;border-radius:999px;background:#0f172a;overflow:hidden}.bar>i{display:block;height:100%;background:#f59e0b}
+  .pos{color:#34d399}.neg{color:#f87171}
+  .suT{border:2px solid #334155;border-radius:.75rem;padding:.7rem .9rem;text-align:left;width:100%;background:#0f172a}
+  .suT.on{border-color:#f59e0b;background:#1e293b}.suT small{display:block;color:#94a3b8;font-size:.7rem}
+  .regOpt{border:2px solid #334155;border-radius:.75rem;padding:.8rem .9rem;text-align:left;width:100%;background:#0f172a;color:#f1f5f9;font-weight:600}
+  .regOpt:hover{border-color:#f59e0b;background:#1e293b}.regOpt small{display:block;color:#94a3b8;font-size:.7rem;font-weight:400}
+  /* ☰ / ⋮ drawer navigation */
+  .top-header{display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;position:sticky;top:0;z-index:40;margin:-1rem -1rem 1.25rem;padding:.8rem 1rem;background:rgba(15,23,42,.95);backdrop-filter:blur(8px);border-bottom:1px solid #334155}
+  @media(min-width:768px){.top-header{margin:-1.5rem -1.5rem 1.5rem;padding:1rem 1.5rem}}
+  .header-center{text-align:center;flex:1;min-width:0}
+  .brand-title{font-size:1.2rem;font-weight:700;color:#fbbf24;margin:0}
+  .active-cluster-badge{font-size:.8rem;color:#94a3b8;font-weight:500}
+  .icon-btn{background:none;border:0;color:#f1f5f9;font-size:1.8rem;line-height:1;padding:.2rem .6rem;border-radius:.5rem;cursor:pointer;flex:none}
+  .icon-btn:hover{background:#334155}
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);opacity:0;pointer-events:none;transition:opacity .3s ease;z-index:200}
+  .overlay.active{opacity:1;pointer-events:auto}
+  .drawer{position:fixed;top:0;width:340px;max-width:85vw;height:100%;background:#1e293b;box-shadow:0 0 25px rgba(0,0,0,.5);transition:transform .3s ease;z-index:201;display:flex;flex-direction:column;overflow-y:auto;padding-top:env(safe-area-inset-top,0px)}
+  .drawer-left{left:0;transform:translateX(-100%)}.drawer-right{right:0;transform:translateX(100%)}
+  .overlay.active .drawer{transform:translateX(0)}
+  .drawer-header{display:flex;justify-content:space-between;align-items:center;padding:1.1rem 1.25rem;border-bottom:1px solid #334155;background:rgba(0,0,0,.2)}
+  .drawer-title{font-size:1.05rem;font-weight:600}
+  .close-btn{background:none;border:0;color:#94a3b8;font-size:1.6rem;cursor:pointer;line-height:1}
+  .nav-item{display:flex;width:100%;justify-content:space-between;align-items:center;gap:.5rem;padding:1rem 1.25rem;color:#f1f5f9;text-align:left;border:0;border-bottom:1px solid rgba(255,255,255,.05);border-left:4px solid transparent;background:none;cursor:pointer;font-size:.95rem}
+  .nav-item:hover{background:#334155}
+  .nav-item.active{border-left-color:#f59e0b;background:rgba(245,158,11,.1)}
+  .nav-item.hidden{display:none!important}
+  .nav-item .soon{font-size:.65rem;color:#94a3b8;border:1px solid #334155;border-radius:999px;padding:0 .45rem;flex:none}
+  .quo-dots{display:inline-flex;gap:5px;align-items:center;height:22px;padding:0 2px}
+  .quo-dots i{width:8px;height:8px;border-radius:50%;background:#94a3b8;display:inline-block;animation:quodot 1.2s infinite ease-in-out both}
+  .quo-dots i:nth-child(2){animation-delay:.15s}.quo-dots i:nth-child(3){animation-delay:.3s}
+  .pw-spin{position:relative;width:84px;height:84px;margin:0 auto}
+  .pw-spin i{position:absolute;inset:0;border-radius:50%;border:3px solid rgba(245,158,11,.15);border-top-color:#f59e0b;animation:pwspin 1.1s linear infinite}
+  .pw-spin i:nth-child(2){inset:12px;border-top-color:#fbbf24;animation-duration:1.6s;animation-direction:reverse}
+  .pw-spin b{position:absolute;inset:30px;border-radius:50%;background:#f59e0b;animation:pwpulse 1.6s ease-in-out infinite}
+  .pw-ok{width:84px;height:84px;margin:0 auto;border-radius:50%;background:rgba(52,211,153,.15);color:#34d399;display:flex;align-items:center;justify-content:center;font-size:2.2rem}
+  @keyframes pwspin{to{transform:rotate(360deg)}}
+  @keyframes pwpulse{0%,100%{transform:scale(.6);opacity:.5}50%{transform:scale(1);opacity:1}}
+  @media (prefers-reduced-motion:reduce){.pw-spin i,.pw-spin b{animation:none}}
+  @keyframes quodot{0%,80%,100%{transform:scale(.55);opacity:.4}40%{transform:scale(1);opacity:1}}
+  #quoPane{display:none;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  #quoPane.open{display:flex}
+  .qb{max-width:88%;border:1px solid #334155;border-radius:.9rem;padding:.5rem .75rem;font-size:.875rem;white-space:pre-wrap;word-break:break-word}
+  .qb.ai{align-self:flex-start;background:#1e293b}.qb.me{align-self:flex-end;background:rgba(14,165,233,.18)}
+</style>
+</head>
+<body class="text-slate-100">
+
+<!-- Lock screen -->
+<div id="lock" class="min-h-screen flex flex-col items-center justify-center gap-4 p-4">
+  <!-- 1) Passcode sign-in (first element) -->
+  <form id="lockForm" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm">
+    <img src="data:image/jpeg;base64,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" alt="Quofy" class="w-28 h-28 mx-auto rounded-2xl object-contain">
+    <h1 class="text-xl font-bold text-amber-400 text-center">Quofy</h1>
+    <p class="text-sm text-slate-400">Subadmin sign-in</p>
+    <div><label class="text-sm font-medium" for="pw">Enter passcode</label><input id="pw" type="password" required autocomplete="current-password"></div>
+    <p id="lockErr" class="text-sm text-red-400 hidden"></p>
+    <button class="btn w-full" id="lockBtn">Sign in</button>
+    <p class="text-sm text-slate-400 text-center pt-1">I don’t have an account? <button type="button" id="goReg" class="text-amber-400 font-semibold underline">Register</button></p>
+  </form>
+  <!-- 2) Register page: menu (church or personal) -->
+  <div id="regMenu" class="hidden bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm">
+    <h2 class="text-lg font-bold text-amber-400">Create an account</h2>
+    <p class="text-sm text-slate-400">What would you like to register?</p>
+    <button type="button" class="regOpt" id="rmOrg">🏢 Register organization<small>Church, school or other: members, elections, voting codes &amp; results</small></button>
+    <button type="button" class="regOpt" id="rmPersonal">👤 Register personal<small>Cashflow, business ledger, budget &amp; emergency fund</small></button>
+    <button type="button" class="btn2 w-full" id="rmBack">← Back to sign in</button>
+  </div>
+  <!-- 3) Register form (opens after choosing church or personal) -->
+  <form id="regForm" class="hidden bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm">
+    <h2 id="rgTitle" class="text-lg font-bold text-amber-400">Register your organization</h2>
+    <p id="rgIntro" class="text-sm text-slate-400">Choose your organization type and send your details. The admin will approve you and email you a passcode.</p>
+    <div id="rgTypeWrap"><label class="text-sm font-medium" for="rgType">Organization type</label><select id="rgType"><option value="church">⛪ Church</option><option value="school">🏫 School</option><option value="other">🏷️ Other</option></select></div>
+    <div id="rgCustomWrap" class="hidden"><label class="text-sm font-medium" for="rgCustom">Type of organization</label><input id="rgCustom" maxlength="40" placeholder="e.g. Sacco, Alumni Club"></div>
+    <div><label id="rgNameLbl" class="text-sm font-medium" for="rgName">Organization name</label><input id="rgName" autocomplete="organization"></div>
+    <div><label class="text-sm font-medium" for="rgLoc">Location</label><input id="rgLoc"></div>
+    <div><label class="text-sm font-medium" for="rgCon">Phone number</label><input id="rgCon" autocomplete="tel"></div>
+    <div><label class="text-sm font-medium" for="rgEmail">Email address <span class="text-red-400">*</span></label><input id="rgEmail" type="email" required autocomplete="email" maxlength="120" placeholder="you@example.com"><p class="text-xs text-slate-500 mt-1">Your login passcode is emailed here after the admin approves you.</p></div>
+    <p id="regErr" class="text-sm text-red-400 hidden"></p>
+    <button class="btn w-full">Request access</button>
+    <button type="button" class="btn2 w-full" id="rgBack">← Back</button>
+  </form>
+  <div id="waitBox" class="order-first hidden bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm text-center">
+    <div id="waitIcon" class="pw-spin" aria-hidden="true"><i></i><i></i><b></b></div>
+    <h2 id="waitTitle" class="text-lg font-bold text-amber-400"></h2>
+    <p id="waitMsg" class="text-sm text-slate-300" role="status" aria-live="polite"></p>
+    <p id="waitSub" class="text-xs text-slate-500"></p>
+    <button type="button" id="waitRetry" class="btn w-full hidden">Register again</button>
+  </div>
+  <div id="choiceBox" class="hidden bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm text-center">
+    <h2 class="text-lg font-bold text-amber-400">Welcome back</h2>
+    <p id="choiceInfo" class="text-sm text-slate-400"></p>
+    <button type="button" id="chReg" class="btn w-full">1. Register an account</button>
+    <button type="button" id="chLogin" class="btn w-full">2. Login</button>
+  </div>
+  <div id="remBox" class="hidden bg-slate-800/80 border border-slate-700 rounded-2xl p-6 w-full max-w-sm space-y-3 shadow-sm text-center">
+    <h2 class="text-lg font-bold text-amber-400">✅ Sign-in successful</h2>
+    <p class="text-sm text-slate-300">Remember this account on this device?</p>
+    <button type="button" id="remNo" class="btn w-full">Don’t remember me</button>
+    <button type="button" id="remYes" class="btn w-full">Remember me</button>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app" class="hidden max-w-6xl mx-auto p-4 md:p-6">
+  <!-- Top bar: ☰ main clusters (left) · brand · ⋮ services (right) -->
+  <header class="top-header">
+    <button id="navL" type="button" class="icon-btn" aria-label="Open main menu" aria-expanded="false" title="Select main cluster">☰</button>
+    <div class="header-center">
+      <h1 class="brand-title flex items-center justify-center gap-2"><img src="data:image/jpeg;base64,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" alt="" class="w-8 h-8 rounded-lg object-contain">Quofy</h1>
+      <p id="orgSub" class="text-xs text-slate-400 truncate">Quofy</p>
+      <p id="clusterTag" class="active-cluster-badge"></p>
+      <div class="flex flex-wrap items-center justify-center gap-2 mt-1.5">
+        <span id="live" class="text-xs font-semibold px-2 py-1 rounded-full bg-slate-700 text-slate-300">● Connecting…</span>
+        <span id="phase" class="text-xs font-semibold px-2.5 py-1 rounded-full"></span>
+      </div>
+    </div>
+    <button id="navR" type="button" class="icon-btn" aria-label="Open services menu" aria-expanded="false" title="Select service">⋮</button>
+  </header>
+
+  <!-- Left drawer (Level 1: core clusters) -->
+  <div class="overlay" id="leftOverlay">
+    <div class="drawer drawer-left" role="dialog" aria-modal="true" aria-labelledby="leftTitle">
+      <div class="drawer-header"><span class="drawer-title" id="leftTitle">1. Core service cluster</span><button type="button" class="close-btn" data-close="1" aria-label="Close">&times;</button></div>
+      <div id="leftList"></div>
+      <div class="mt-auto border-t border-slate-700 p-3 space-y-1">
+        <button class="mi keep" id="chType"><span class="mil">⚙️ Account type</span></button>
+        <button class="mi text-red-300" role="menuitem" id="signOut"><span class="mil"><svg class="ic ic-red" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg><span>Sign out</span></span></button>
+        <p id="mnInfo" class="text-[11px] text-slate-500 px-3 pt-1 pb-1.5"></p>
+      </div>
+      <div class="hidden">
+          <button class="mi " style="display:none" role="menuitem" id="mnOpen" data-phase="open"><span class="mil"><svg class="ic ic-green" viewBox="0 0 24 24" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg><span>Open voting now</span></span></button>
+          <button class="mi " style="display:none" role="menuitem" id="mnPause" data-phase="paused"><span class="mil"><svg class="ic ic-amber" id="mnPauseIc" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg><span id="mnPauseTxt">Pause voting</span></span></button>
+          <button class="mi " style="display:none" role="menuitem" id="mnClose" data-phase="closed"><span class="mil"><svg class="ic ic-red" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/></svg><span>Close voting now</span></span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right drawer (Level 2: services inside the chosen cluster) -->
+  <div class="overlay" id="rightOverlay">
+    <div class="drawer drawer-right" role="dialog" aria-modal="true" aria-labelledby="rightTitle">
+      <div class="drawer-header"><span class="drawer-title" id="rightTitle">2. Select service</span><button type="button" class="close-btn" data-close="1" aria-label="Close">&times;</button></div>
+      <div id="svcReal">
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="dash"><span class="lbl">📊 Election dashboard</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="cands"><span class="lbl">🧑‍💼 Candidates</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="codes"><span class="lbl">🔑 Voting codes</span><span class="badge" id="bdCodes">0</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="proxy"><span class="lbl">📋 Paper &amp; proxy votes</span><span class="badge" id="bdProxy">0</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="results"><span class="lbl">🏆 Results</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="control"><span class="lbl">⚙️ Election settings</span></button>
+      <button type="button" class="nav-item" data-cl="elections" data-m="org" data-svc="audit"><span class="lbl">🧾 Compliance &amp; audit log</span><span class="badge" id="bdAudit">0</span></button>
+      <button type="button" class="nav-item" data-cl="directory" data-m="org" data-svc="voters"><span class="lbl">👥 Member registry</span></button>
+      <button type="button" class="nav-item" data-cl="ledger" data-m="personal" data-svc="fin_cash"><span class="lbl">💵 Cashflow</span></button>
+      <button type="button" class="nav-item" data-cl="ledger" data-m="personal" data-svc="fin_biz"><span class="lbl">🧾 Business cash flow &amp; ledger</span></button>
+      <button type="button" class="nav-item" data-cl="ledger" data-m="personal" data-svc="fin_budget"><span class="lbl">🎯 Budget &amp; emergency fund</span></button>
+      <button type="button" class="nav-item" data-cl="ledger" data-m="personal" data-svc="fin_report"><span class="lbl">📤 Reports &amp; export</span></button>
+      </div>
+      <div id="svcPh"></div>
+    </div>
+  </div>
+
+  <!-- Current service heading -->
+  <div id="viewHead" class="mb-4">
+    <p id="viewCluster" class="text-xs text-slate-400"></p>
+    <h2 id="viewTitle" class="text-lg font-bold text-amber-400"></h2>
+  </div>
+
+  <!-- Placeholder for services that are not built yet -->
+  <div data-view="soon" class="hidden">
+    <div class="card space-y-2"><p id="soonName" class="font-semibold text-amber-400"></p><p id="soonDesc" class="text-sm text-slate-400"></p><hr class="border-slate-700"><p class="text-sm text-slate-300">🚧 Coming soon to Quofy. Your election, member and voting-code tools are not affected.</p></div>
+  </div>
+
+  <!-- Dashboard (view-only; live from Firebase) -->
+  <div data-view="dash" class="space-y-5">
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-3" id="stats"></section>
+    <div class="bg-slate-800/80 border border-yellow-600/20 rounded-2xl p-4">
+      <h2 class="text-sm font-bold text-amber-400 mb-3">Quick actions</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+        <button type="button" class="btn2 !py-2.5" data-go="voters">👥 Members</button>
+        <button type="button" class="btn2 !py-2.5" data-go="cands">🧑‍💼 Candidates</button>
+        <button type="button" class="btn2 !py-2.5" data-go="results">📊 Results</button>
+        <button type="button" class="btn2 !py-2.5" data-go="control">⚙️ Election settings</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Members -->
+  <div data-view="voters" class="hidden">
+    <form id="memForm" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-4 grid md:grid-cols-4 gap-3 mb-4">
+      <input id="mName" placeholder="Member full name" required maxlength="80">
+      <input id="mPhone" placeholder="Phone number" required inputmode="tel" maxlength="20">
+      <select id="mRole"><option>Communicant</option><option>Non-voting</option></select>
+      <button class="btn">Add member</button>
+    </form>
+    <div class="flex flex-wrap gap-2 mb-3">
+      <input id="search" placeholder="Search members or candidates" class="flex-1 min-w-[12rem] max-w-sm">
+      <select id="vf" aria-label="Filter by voting status" class="max-w-[11rem]"><option value="">All members</option><option value="yes">Voted</option><option value="no">Not voted</option></select>
+    </div>
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl overflow-x-auto">
+      <table class="w-full text-sm"><thead><tr><th>Member</th><th>Eligibility</th><th>Ballot</th><th></th></tr></thead><tbody id="mBody"></tbody></table>
+    </div>
+  </div>
+
+  <!-- Candidates -->
+  <div data-view="cands" class="hidden">
+    <form id="candForm" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-4 grid md:grid-cols-2 gap-3 mb-4">
+      <input id="cName" placeholder="Full name" required maxlength="80">
+      <input id="cId" placeholder="ID number" required inputmode="numeric" maxlength="12">
+      <input id="cPhone" placeholder="Phone number" required inputmode="tel" maxlength="20">
+      <select id="cPos" aria-label="Position"></select>
+      <textarea id="cBio" rows="2" maxlength="300" required placeholder="Short bio (who they are, why they are standing)" class="md:col-span-2"></textarea>
+      <div class="md:col-span-2 flex items-center gap-3">
+        <img id="cPrev" alt="" class="hidden w-16 h-16 rounded-xl object-cover border border-slate-700">
+        <div class="flex-1"><label class="text-xs text-slate-400" for="cPic">Candidate photo</label><input id="cPic" type="file" accept="image/*" required></div>
+      </div>
+      <button class="btn md:col-span-2 justify-self-start">Register candidate</button>
+    </form>
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl overflow-x-auto">
+      <table class="w-full text-sm"><thead><tr><th>Candidate</th><th>ID / Phone</th><th>Office</th><th>Status</th><th></th></tr></thead><tbody id="cBody"></tbody></table>
+    </div>
+  </div>
+
+  <!-- Proxy -->
+  <div data-view="proxy" class="hidden">
+    <form id="proxyForm" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-4 grid md:grid-cols-2 gap-3 max-w-2xl">
+      <select id="pMember" required class="md:col-span-2"></select>
+      <select id="pMethod"><option>Signed paper ballot</option><option>Parental proxy for minor</option><option>Verbal authorisation (2 witnesses)</option></select>
+      <input id="pWit" placeholder="Witness name(s)" required>
+      <p class="md:col-span-2 text-xs text-slate-400">This marks the member as having voted so they can’t vote twice. It does not record their choices; enter paper ballot choices through the main voting page.</p>
+      <button class="btn md:col-span-2 justify-self-start">Record participation</button>
+    </form>
+  </div>
+
+  <!-- Voting codes -->
+  <div data-view="codes" class="hidden space-y-4 max-w-xl">
+    <form id="codeForm" class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5 space-y-3">
+      <h2 class="font-bold text-amber-400">Create a voting code</h2>
+      <p class="text-xs text-slate-400">One code lets up to 500 registered voters log in. Each voter can still vote only once.</p>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="cdLabel">Label (optional)</label><input id="cdLabel" placeholder="e.g. Youth group" maxlength="40"></div>
+        <div><label class="text-xs text-slate-400" for="cdCap">Number of voters</label><input id="cdCap" type="number" min="1" max="500" value="500" required></div>
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="cdExp">Code lasts for</label><input id="cdExp" type="number" min="1" step="1" value="24" required></div>
+        <div><label class="text-xs text-slate-400" for="cdUnit">Unit</label><select id="cdUnit"><option value="60000">Minutes</option><option value="3600000" selected>Hours</option><option value="86400000">Days</option></select></div>
+      </div>
+      <p class="text-xs text-slate-400">After this time the code stops letting new voters log in. Maximum 30 days.</p>
+      <button class="btn">Create code</button>
+    </form>
+    <div id="codeList" class="space-y-2"></div>
+  </div>
+
+  <!-- Personal finance -->
+  <div data-view="fin_cash" class="hidden space-y-4 max-w-3xl">
+    <div class="flex items-center gap-2"><label class="text-xs text-slate-400" for="cMonth">Period</label><select id="cMonth" class="max-w-[12rem]"></select></div>
+    <div class="grid grid-cols-3 gap-3" id="cashStats"></div>
+    <form id="cashForm" class="card space-y-3">
+      <h2 class="font-bold text-amber-400">Add income or expense</h2>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="cType">Type</label><select id="cType"><option value="income">Income</option><option value="expense">Expense</option></select></div>
+        <div><label class="text-xs text-slate-400" for="cAmt">Amount (KES)</label><input id="cAmt" type="number" min="0.01" step="0.01" required></div>
+        <div><label class="text-xs text-slate-400" for="cCat">Category</label><input id="cCat" list="catList" placeholder="e.g. Salary, Rent, Food" required maxlength="40"><datalist id="catList"></datalist></div>
+        <div><label class="text-xs text-slate-400" for="cDate">Date</label><input id="cDate" type="date" required></div>
+      </div>
+      <input id="cNote" placeholder="Note (optional)" maxlength="80">
+      <button class="btn">Add entry</button>
+    </form>
+    <div class="card"><h2 class="font-bold text-amber-400 mb-2">Spending by category</h2><div id="cashBreak" class="space-y-2"></div></div>
+    <div class="card overflow-x-auto !p-0"><table class="w-full text-sm"><thead><tr><th>Date</th><th>Category</th><th class="text-right">Amount</th><th></th></tr></thead><tbody id="cashBody"></tbody></table></div>
+  </div>
+
+  <div data-view="fin_biz" class="hidden space-y-4 max-w-3xl">
+    <div class="flex items-center gap-2"><label class="text-xs text-slate-400" for="bMonth">Period</label><select id="bMonth" class="max-w-[12rem]"></select></div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3" id="bizStats"></div>
+    <form id="bizForm" class="card space-y-3">
+      <h2 class="font-bold text-amber-400">Record a sale or purchase</h2>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="bType">Type</label><select id="bType"><option value="sale">Sale</option><option value="purchase">Purchase</option></select></div>
+        <div><label class="text-xs text-slate-400" for="bAmt">Amount (KES)</label><input id="bAmt" type="number" min="0.01" step="0.01" required></div>
+        <div><label class="text-xs text-slate-400" for="bItem">Item / customer / supplier</label><input id="bItem" required maxlength="60"></div>
+        <div><label class="text-xs text-slate-400" for="bDate">Date</label><input id="bDate" type="date" required></div>
+      </div>
+      <input id="bNote" placeholder="Note (optional)" maxlength="80">
+      <button class="btn">Add record</button>
+    </form>
+    <div class="card overflow-x-auto !p-0"><table class="w-full text-sm"><thead><tr><th>Date</th><th>Item</th><th class="text-right">Amount</th><th></th></tr></thead><tbody id="bizBody"></tbody></table></div>
+  </div>
+
+  <div data-view="fin_budget" class="hidden space-y-4 max-w-3xl">
+    <form id="budForm" class="card space-y-3">
+      <h2 class="font-bold text-amber-400">Monthly budget</h2>
+      <p class="text-xs text-slate-400">Set a limit per spending category. Progress uses this month’s expenses from your cashflow.</p>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="bgCat">Category</label><input id="bgCat" list="catList" required maxlength="40" placeholder="e.g. Food"></div>
+        <div><label class="text-xs text-slate-400" for="bgLim">Monthly limit (KES)</label><input id="bgLim" type="number" min="1" step="0.01" required></div>
+      </div>
+      <button class="btn">Save budget</button>
+    </form>
+    <div id="budList" class="space-y-2"></div>
+    <form id="emForm" class="card space-y-3">
+      <h2 class="font-bold text-amber-400">Emergency fund planner</h2>
+      <div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="emMonthly">Monthly essential expenses (KES)</label><input id="emMonthly" type="number" min="0" step="0.01" required></div>
+        <div><label class="text-xs text-slate-400" for="emMonths">Months to cover</label><input id="emMonths" type="number" min="1" max="24" value="6" required></div>
+        <div><label class="text-xs text-slate-400" for="emSaved">Saved so far (KES)</label><input id="emSaved" type="number" min="0" step="0.01" value="0" required></div>
+        <div><label class="text-xs text-slate-400" for="emContrib">Monthly contribution (KES)</label><input id="emContrib" type="number" min="0" step="0.01" value="0" required></div>
+      </div>
+      <div class="flex gap-2"><button class="btn">Save plan</button><button type="button" class="btn2" id="emAvg">Use my average spending</button></div>
+      <div id="emOut" class="text-sm space-y-2"></div>
+    </form>
+  </div>
+
+  <div data-view="fin_report" class="hidden space-y-4 max-w-3xl">
+    <div class="card space-y-3">
+      <h2 class="font-bold text-amber-400">Financial summary</h2>
+      <div class="flex flex-wrap items-end gap-2"><div><label class="text-xs text-slate-400" for="rPeriod">Period</label><select id="rPeriod"></select></div>
+        <button class="btn" id="rPdf" type="button">Download PDF</button><button class="btn2 !py-2.5" id="rXls" type="button">Download Excel</button></div>
+    </div>
+    <div id="rBody" class="space-y-3"></div>
+  </div>
+
+  <!-- Election -->
+  <div data-view="control" class="hidden space-y-4 max-w-xl">
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5 space-y-3">
+      <h2 class="font-bold text-amber-400">Voting status (view only)</h2>
+      <p class="text-sm">Voting is started and ended by the main admin. Current status: <strong id="vsNote">…</strong></p>
+      <div class="hidden"><div class="grid grid-cols-2 gap-3">
+        <div><label class="text-xs text-slate-400" for="vStart">Opens</label><input id="vStart" type="datetime-local"></div>
+        <div><label class="text-xs text-slate-400" for="vEnd">Closes</label><input id="vEnd" type="datetime-local"></div>
+      </div>
+      <button class="btn" id="saveSched">Save schedule</button></div>
+      <p id="schedNote" class="text-xs text-slate-400"></p>
+      <div class="flex items-end gap-2"><div class="flex-1"><label class="text-xs text-slate-400" for="qPct">Quorum (% of eligible communicants)</label><input id="qPct" type="number" min="1" max="100" value="50"></div><button class="btn2" id="saveQ" type="button">Save quorum</button></div>
+      <p class="text-sm">Need <strong id="qNeed"></strong> votes. Current turnout: <strong id="qNow"></strong>.</p>
+      <div class="hidden">
+        <button class="btn" data-phase="open">Open now</button>
+        <button class="btn2" data-phase="paused">Pause voting</button>
+        <button class="btn2" data-phase="closed">Close now</button>
+      </div>
+    </div>
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5 space-y-3">
+      <h2 class="font-bold text-amber-400">Positions</h2>
+      <form id="posForm" class="flex gap-2"><input id="posName" placeholder="e.g. Chairman, Youth Leader" required maxlength="60"><button class="btn">Add</button></form>
+      <div id="posList" class="flex flex-wrap gap-2"></div>
+    </div>
+    <p class="text-xs text-slate-400">Subadmins manage this account only. They cannot manage other accounts, create other admins, delete the system, or change a vote once cast. Those are for the main admin.</p>
+  </div>
+
+  <!-- Results -->
+  <div data-view="results" class="hidden space-y-4">
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-5">
+      <p id="rProg" class="text-lg font-bold"></p>
+      <div class="h-3 rounded-full bg-slate-700 mt-2 overflow-hidden"><div id="rBar" class="h-full bg-amber-500 transition-all" style="width:0"></div></div>
+      <p id="rSub" class="text-xs text-slate-400 mt-2"></p>
+    </div>
+    <div class="flex flex-wrap gap-2"><button class="btn" id="dlPdf">Download PDF</button><button class="btn2" id="dlXls">Download Excel</button></div>
+    <div id="rBody"></div>
+  </div>
+
+  <!-- Audit -->
+  <div data-view="audit" class="hidden">
+    <div class="flex items-center justify-between mb-2">
+      <p class="text-xs text-slate-400">Each entry carries a hash of the one before it, so edits to earlier entries are detectable.</p>
+      <button class="btn2" id="csv">Export CSV</button>
+    </div>
+    <div class="bg-slate-800/80 border border-slate-700 rounded-2xl overflow-x-auto">
+      <table class="w-full text-xs"><thead><tr><th>Time</th><th>Subadmin</th><th>Action</th><th>Area</th><th>Hash</th></tr></thead><tbody id="aBody"></tbody></table>
+    </div>
+  </div>
+</div>
+
+<footer class="mt-12 text-center text-xs text-slate-500 border-t border-slate-800 pt-4 pb-6"><p>© Quofy. All rights reserved.</p></footer>
+
+<div id="toast" class="fixed bottom-4 right-4 bg-slate-800 border border-slate-700 text-white text-sm px-4 py-2.5 rounded-xl shadow-xl hidden"></div>
+
+<!-- First-time setup: choose account mode -->
+<div id="setup" class="hidden fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="setupTitle">
+  <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full max-w-md space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+    <div id="su1" class="space-y-3">
+      <h2 id="setupTitle" class="text-lg font-bold text-amber-400">Welcome to Quofy</h2>
+      <p class="text-sm text-slate-400">How will you use this account?</p>
+      <button type="button" class="btn w-full !py-3" id="suOrg">🏢 Organization<small class="block font-normal">Members, elections, voting codes &amp; results</small></button>
+      <button type="button" class="btn w-full !py-3" id="suPers">👤 Personal Use<small class="block font-normal">Cashflow, business ledger, budget &amp; emergency fund</small></button>
+      <button type="button" class="btn2 w-full hidden" id="suCancel">Cancel</button>
+    </div>
+    <div id="su2" class="hidden space-y-3">
+      <h2 class="text-lg font-bold text-amber-400">Organization type</h2>
+      <button type="button" class="suT" data-t="church">⛪ Church<small>Communicants, Board members, Deacons, Elders</small></button>
+      <button type="button" class="suT" data-t="school">🏫 School<small>Students/Staff, Student Council, Prefects, Club Execs</small></button>
+      <button type="button" class="suT" data-t="other">🏷️ Other<small>Sacco, Alumni Club, or anything else</small></button>
+      <div id="suCustomWrap" class="hidden"><label class="text-xs text-slate-400" for="suCustom">Type of organization</label><input id="suCustom" maxlength="40" placeholder="e.g. Sacco, Alumni Club"></div>
+      <div class="flex gap-2"><button type="button" class="btn2" id="suBack">← Back</button><button type="button" class="btn flex-1" id="suGo">Continue</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- Quo AI (sub-admin assistant): floating button + full-screen chat -->
+<button id="quoFab" type="button" class="hidden fixed w-14 h-14 rounded-full border-2 border-amber-400 shadow-xl p-0 bg-slate-900" style="right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:150" aria-label="Open Quo AI"><img src="data:image/jpeg;base64,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" alt="" class="w-full h-full rounded-full object-cover"></button>
+<div id="quoPane" class="fixed inset-0 bg-slate-900" style="z-index:300" role="dialog" aria-label="Quo AI assistant" aria-hidden="true">
+  <div class="flex items-center gap-2 px-3 py-2 border-b border-slate-700 flex-none">
+    <img src="data:image/jpeg;base64,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" alt="" class="w-9 h-9 rounded-full object-cover">
+    <div class="min-w-0 flex-1"><p class="font-bold text-amber-400 leading-tight">Quo AI</p><p id="quoSub" class="text-[11px] text-slate-400 truncate"></p></div>
+    <button type="button" id="quoMute" class="btn2" aria-label="Turn voice off">🔊</button>
+    <button type="button" id="quoClear" class="btn2" aria-label="Clear chat">🗑</button>
+    <button type="button" id="quoClose" class="btn2" aria-label="Close">✕</button>
+  </div>
+  <div id="quoMsgs" class="flex-1 min-h-0 overflow-y-auto p-3 flex flex-col gap-2"></div>
+  <div id="quoChips" class="flex gap-2 overflow-x-auto px-3 pb-2 flex-none"></div>
+  <form id="quoForm" class="flex items-end gap-2 p-3 border-t border-slate-700 flex-none">
+    <textarea id="quoIn" rows="1" maxlength="2000" placeholder="Ask Quo about your members, votes, results…" class="flex-1" style="max-height:8rem"></textarea>
+    <button class="btn" id="quoSend" type="submit">Send</button>
+  </form>
+</div>
+
+<script>
+// Shared storage key: the admin and voting pages should read/write this same key on the same origin.
+const KEY='agc_immanuel_state';
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let S, user=null;
+/* ---- Quofy account types: the wording of the whole dashboard follows the chosen type ---- */
+const ORGS={
+  church:{name:'Church',person:'Communicant',persons:'Communicants',eligible:'Eligible communicants',org:'church',defaults:['Board Members','Deacons','Elders'],ph:'e.g. Elder, Deacon'},
+  school:{name:'School',person:'Student/Staff',persons:'Students & staff',eligible:'Eligible students & staff',org:'school',defaults:['Student Council','Prefects','Club Executives'],ph:'e.g. Head Prefect, Club Chair'},
+  other:{name:'Organization',person:'Member',persons:'Members',eligible:'Eligible members',org:'organization',defaults:[],ph:'e.g. Chairperson, Treasurer'}
+};
+let T=ORGS.church, PROFILE=null, PERSONAL=false;
+function orgTerms(pf){
+  if(!pf||pf.type!=='organization')return ORGS.church;
+  const b=ORGS[pf.subType]||ORGS.other, n=String(pf.customName||'').trim();
+  return pf.subType==='other'&&n?{...b,name:n,org:n.toLowerCase()}:b;
+}
+function applyTerms(){
+  const q=s=>document.querySelector(s), set=(s,t)=>{const x=q(s); if(x)x.textContent=t}, pl=T.persons.toLowerCase();
+  document.title='Quofy – '+(PERSONAL?'Personal finance':T.name);
+  set('#orgSub',PERSONAL?'Personal finance & business manager':(window.ACCNAME?window.ACCNAME+' · ':'')+T.name+' elections');
+  set('[data-tab="voters"]',T.persons); set('[data-svc="voters"] .lbl','👥 '+T.persons+' registry'); set('[data-go="voters"]','👥 '+T.persons); VIEWS.voters=T.persons;
+  const th=q('#mBody')&&q('#mBody').closest('table').querySelector('th'); if(th)th.textContent=T.person;
+  const o=q('#mRole')&&q('#mRole').options[0]; if(o){o.value='Communicant';o.textContent=T.person}
+  const vf=q('#vf')&&q('#vf').options[0]; if(vf)vf.textContent='All '+pl;
+  const mn=q('#mName'); if(mn)mn.placeholder=T.person+' full name';
+  const mb=q('#memForm button'); if(mb)mb.textContent='Add '+T.person.toLowerCase();
+  const se=q('#search'); if(se)se.placeholder='Search '+pl+' or candidates';
+  const ql=q('label[for="qPct"]'); if(ql)ql.textContent='Quorum (% of '+T.eligible.toLowerCase()+')';
+  const pn=q('#posName'); if(pn)pn.placeholder=T.ph;
+}
+
+function load(){
+  try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}
+  S=Object.assign({members:[],candidates:[],logs:[],votes:[],positions:['Board of Deacons','Elder Board Trustee','Church Treasurer','Auditing Committee Lead'],start:'',end:'',phase:'open',quorum:50,setAt:'',setBy:'',passHash:null},S||{});
+}
+function save(){ try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){toast('Could not save – browser storage is blocked.')} }
+async function sha(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+const uid=p=>p+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.remove('hidden');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.add('hidden'),2800)}
+
+async function log(action,area){
+  const prev=S.logs.length?S.logs[0].hash:'genesis';
+  const time=new Date().toISOString().replace('T',' ').slice(0,16);
+  const hash=(await sha(prev+time+user+action+area)).slice(0,12);
+  S.logs.unshift({time,admin:user,action,area,hash}); save();
+}
+
+// ---- Sign-in ----
+load();
+/* Sign-in is handled by the server (subadminLogin Cloud Function); no passcode or hash is stored in this page. */
+$('#signOut').onclick=async()=>{try{await Promise.race([window.__offline?window.__offline():0,new Promise(r=>setTimeout(r,1500))])}catch(e){} location.reload()};
+
+// ---- Navigation: ☰ core clusters (left drawer) + ⋮ services (right drawer) ----
+const VIEWS={dash:'Election dashboard',voters:'Members',cands:'Candidates',results:'Results',proxy:'Paper & proxy votes',codes:'Voting codes',control:'Election settings',audit:'Compliance & audit log',fin_cash:'Cashflow',fin_biz:'Business cash flow & ledger',fin_budget:'Budget & emergency fund',fin_report:'Reports & export',soon:''};
+const CLUSTERS=[
+  {k:'elections',n:'Governance & Elections',m:'org'},
+  {k:'communication',n:'Communication & Records',m:'org'},
+  {k:'directory',n:'Directory & Attendance',m:'org'},
+  {k:'operations',n:'Operations & Resources',m:'org'},
+  {k:'ledger',n:'Unified Financial Ledger',m:'both'}
+];
+/* Services that are not built yet (shown as "Soon"). The working ones are the buttons in #svcReal. */
+const PH={
+  communication:[
+    {n:'Member Chat & Discussion Channels',d:'Public channels, direct messaging, and departmental chat threads.'},
+    {n:'Meeting Minutes & Action Logger',d:'Archive formal board meeting records and assign task deadlines.'},
+    {n:'Bulk SMS & Email Broadcasts',d:'Dispatch urgent alerts, payment reminders, and announcements.'}],
+  directory:[
+    {n:'QR Code Attendance Tracking',d:'Scan mobile QR codes for rapid event check-ins.'},
+    {n:'Digital Member ID Cards',d:'Auto-generate printable and digital scannable passes.'}],
+  operations:[
+    {n:'Event Ticketing & RSVPs',d:'Create event pages, allocate ticket quantities, and manage guest lists.'},
+    {n:'Resource & Facility Booking',d:'Shared calendar to reserve halls, rooms, vehicles, and equipment.'}],
+  ledger:[
+    {n:'Contributions & Dues Tracking',d:'Record tithes, tuition, and member subscription payments.'},
+    {n:'Invoicing & Accounts Receivable',d:'Generate branded invoices and track pending balances.'},
+    {n:'Business Cash Flow & P&L Ledger',d:'Monitor daily income, operational expenses, and real-time P&L.'},
+    {n:'Inventory & Stock Counter',d:'Track stock movements with automated low-stock reorder warnings.'}]
+};
+let navCl='elections', navView='dash';
+const clusterOf=v=>{const b=document.querySelector('#svcReal [data-svc="'+v+'"]'); return b?b.dataset.cl:null};
+function openDrawer(s){$('#'+s+'Overlay').classList.add('active'); $(s==='left'?'#navL':'#navR').setAttribute('aria-expanded','true')}
+function closeDrawer(s){$('#'+s+'Overlay').classList.remove('active'); $(s==='left'?'#navL':'#navR').setAttribute('aria-expanded','false')}
+function renderNav(){
+  const list=CLUSTERS.filter(c=>!PERSONAL||c.m==='both');
+  if(!list.some(c=>c.k===navCl))navCl=list[0].k;
+  $('#leftList').innerHTML=list.map(c=>'<button type="button" class="nav-item'+(c.k===navCl?' active':'')+'" data-cl="'+c.k+'"><span>'+esc(c.n)+'</span><span>›</span></button>').join('');
+  const cur=CLUSTERS.find(c=>c.k===navCl), mode=PERSONAL?'personal':'org';
+  $('#clusterTag').textContent=cur.n; $('#rightTitle').textContent=cur.n;
+  $$('#svcReal [data-svc]').forEach(b=>{const show=b.dataset.cl===navCl&&b.dataset.m===mode; b.classList.toggle('hidden',!show); b.classList.toggle('active',show&&b.dataset.svc===navView)});
+  $('#svcPh').innerHTML=(PERSONAL?[]:(PH[navCl]||[])).map((x,i)=>'<button type="button" class="nav-item'+(navView==='soon:'+navCl+':'+i?' active':'')+'" data-ph="'+i+'"><span>'+esc(x.n)+'</span><span class="soon">Soon</span></button>').join('');
+}
+function showTab(n,ph){
+  const cl=clusterOf(n); if(cl)navCl=cl;
+  navView=ph?'soon:'+navCl+':'+ph.i:n;
+  $$('[data-view]').forEach(v=>v.classList.toggle('hidden',v.dataset.view!==n));
+  renderNav();
+  const cn=(CLUSTERS.find(c=>c.k===navCl)||{}).n||'';
+  $('#viewCluster').textContent=cn; $('#viewTitle').textContent=ph?ph.n:(VIEWS[n]||'');
+  window.scrollTo(0,0);
+}
+$('#navL').onclick=()=>openDrawer('left'); $('#navR').onclick=()=>openDrawer('right');
+['left','right'].forEach(s=>$('#'+s+'Overlay').addEventListener('click',e=>{if(e.target.id===s+'Overlay'||e.target.closest('[data-close]'))closeDrawer(s)}));
+$('#leftList').addEventListener('click',e=>{const b=e.target.closest('[data-cl]'); if(!b)return; navCl=b.dataset.cl; renderNav(); closeDrawer('left'); setTimeout(()=>openDrawer('right'),200)}); // then pick the service on the right
+$('#leftOverlay').addEventListener('click',e=>{if(e.target.closest('#chType,#signOut'))closeDrawer('left')});
+$('#svcReal').addEventListener('click',e=>{const b=e.target.closest('[data-svc]'); if(!b)return; showTab(b.dataset.svc); closeDrawer('right')});
+$('#svcPh').addEventListener('click',e=>{const b=e.target.closest('[data-ph]'); if(!b)return; const x=Object.assign({i:+b.dataset.ph},PH[navCl][+b.dataset.ph]); $('#soonName').textContent=x.n; $('#soonDesc').textContent=x.d; showTab('soon',x); closeDrawer('right')});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDrawer('left');closeDrawer('right')}});
+$('[data-view="dash"]').addEventListener('click',e=>{const g=e.target.closest('[data-go]'); if(g)showTab(g.dataset.go)}); // navigation only, no data changes
+renderNav();
+function paintMenu(){
+  const el=eligible(), set=(id,t)=>{const x=$(id); if(x)x.textContent=t};
+  set('#bdCodes',window.SCN||0); set('#bdProxy',el.filter(m=>!m.voted).length); set('#bdAudit',S.logs.length);
+  const paused=S.phase==='paused';
+  $('#mnOpen').disabled=S.phase==='open'; $('#mnClose').disabled=S.phase==='closed'; $('#mnPause').disabled=S.phase==='closed';
+  $('#mnPause').dataset.phase=paused?'open':'paused'; set('#mnPauseTxt',paused?'Resume voting':'Pause voting'); $('#mnPauseIc').innerHTML=paused?'<polygon points="6 3 20 12 6 21 6 3"/>':'<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+  set('#mnInfo',S.setAt?'Last change: '+(S.setBy||'Subadmin')+' · '+new Date(S.setAt).toLocaleString([],{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'}):'');
+  const q=$('#qPct'); if(q&&document.activeElement!==q)q.value=S.quorum||50;
+}
+$('#saveQ').onclick=async()=>{
+  const q=parseInt($('#qPct').value,10); if(!(q>=1&&q<=100))return toast('Quorum must be between 1 and 100%.');
+  S.quorum=q; S.setAt=new Date().toISOString(); S.setBy=user;
+  await log('Quorum set to '+q+'%','Election'); render(); toast('Quorum saved.');
+};
+
+// ---- Render ----
+const eligible=()=>S.members.filter(m=>m.role==='Communicant');
+function render(){
+  const el=eligible(), voted=el.filter(m=>m.voted).length, pct=el.length?Math.round(voted/el.length*1000)/10:0, need=Math.ceil(el.length*(S.quorum||50)/100);
+  const rdy=!!window.__ready, cards=[[T.eligible,el.length,'👥'],['Ballots cast',voted,'🗳️'],['Turnout',pct+'%'+(el.length&&voted>=need?' · quorum met':''),'📊'],['Candidates',S.candidates.length,'🧑‍💼']].map(c=>rdy?c:[c[0],'…',c[2]]);
+  $('#stats').innerHTML=cards.map(([a,b,ic])=>{const zero=parseFloat(b)===0;
+    return `<div class="relative overflow-hidden bg-slate-800/80 border border-yellow-600/20 rounded-2xl p-4 min-h-[8.5rem] flex flex-col items-center justify-center text-center">`+
+    (zero?`<span class="absolute inset-0 flex items-center justify-center text-7xl opacity-10 grayscale select-none pointer-events-none" aria-hidden="true">${ic}</span>`:'')+
+    `<p class="relative text-[11px] text-slate-400 mb-1">${a}</p><p class="relative text-4xl font-bold text-amber-400">${esc(b)}</p></div>`}).join('');
+  $('#qNeed').textContent=need; $('#qNow').textContent=pct+'%';
+  const ph=$('#phase'); const map={open:['Voting open','bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'],paused:['Voting paused','bg-amber-500/20 text-amber-300 border border-amber-500/40'],closed:['Voting closed','bg-slate-700 text-slate-200 border border-slate-600'],scheduled:['Voting not started','bg-sky-500/20 text-sky-300 border border-sky-500/40']};
+  ph.textContent=map[S.phase][0]; ph.className='text-xs font-semibold px-2.5 py-1 rounded-full '+map[S.phase][1];
+
+  const q=$('#search').value.toLowerCase();
+  const vf=$('#vf').value;
+  const ms=S.members.filter(m=>(m.name+m.phone).toLowerCase().includes(q)&&(!vf||(vf==='yes')===!!m.voted));
+  $('#mBody').innerHTML=ms.length?ms.map(m=>`<tr>
+    <td><div class="font-semibold">${esc(m.name)}</div><div class="text-xs text-slate-400">${esc(m.phone)}</div></td>
+    <td>${esc(m.role)}</td>
+    <td>${m.voted?'<span class="text-emerald-300 font-medium">Cast'+(m.via?' ('+esc(m.via)+')':'')+'</span>':'<span class="text-amber-300">Pending</span>'}</td>
+    <td class="text-right"><button class="btn2" data-act="elig" data-id="${m.id}">${m.role==='Communicant'?'Make non-voting':'Make '+T.person.toLowerCase()}</button> <button class="btn2 text-red-300" data-act="rmm" data-id="${m.id}">Remove</button></td></tr>`).join('')
+    :'<tr><td colspan="4" class="text-slate-400">No '+T.persons.toLowerCase()+' yet.</td></tr>';
+
+  const cs=S.candidates.filter(c=>(c.name+c.position+c.idNo+c.phone).toLowerCase().includes(q));
+  $('#cBody').innerHTML=cs.length?cs.map(c=>`<tr>
+    <td><div class="flex items-center gap-3"><img src="${esc(c.pic)}" alt="" class="w-12 h-12 rounded-xl object-cover border border-slate-700 bg-slate-900"><div><div class="font-semibold">${esc(c.name)}</div><div class="text-xs text-slate-400 max-w-xs">${esc(c.bio)}</div></div></div></td>
+    <td class="text-xs"><div>ID ${esc(c.idNo)}</div><div class="text-slate-400">${esc(c.phone)}</div></td><td>${esc(c.position)}</td>
+    <td><span class="${c.status==='Approved'?'text-emerald-300':'text-amber-300'} font-medium">${esc(c.status)}</span></td>
+    <td class="text-right space-x-1"><button class="btn2" data-act="appr" data-id="${c.id}">${c.status==='Approved'?'Withdraw approval':'Approve'}</button><button class="btn2 text-red-300" data-act="rmc" data-id="${c.id}">Remove</button></td></tr>`).join('')
+    :'<tr><td colspan="5" class="text-slate-400">No candidates registered.</td></tr>';
+
+  const cv=$('#cPos').value;
+  $('#cPos').innerHTML=S.positions.map(p=>`<option>${esc(p)}</option>`).join('');
+  if(S.positions.includes(cv))$('#cPos').value=cv;
+  $('#posList').innerHTML=S.positions.map(p=>`<span class="inline-flex items-center gap-1 bg-slate-700 rounded-full pl-3 pr-1 py-1 text-xs">${esc(p)}<button class="text-red-300 px-1.5" data-rmp="${esc(p)}" aria-label="Remove ${esc(p)}">✕</button></span>`).join('')||'<span class="text-xs text-slate-400">No positions yet.</span>';
+  const fmt=t=>new Date(t).toLocaleString([],{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});
+  $('#schedNote').textContent=S.setAt?'Last change by '+(S.setBy||'Main admin')+' on '+new Date(S.setAt).toLocaleString([],{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})+'.':'The main admin has not started voting yet.'; const vn=$('#vsNote'); if(vn)vn.textContent=({open:'Voting open',closed:'Voting ended',paused:'Voting paused',scheduled:'Not started yet'})[S.phase]||'Not started yet';
+  const done=S.phase==='closed';
+  $('#rProg').textContent=voted+' out of '+el.length+' have voted';
+  $('#rBar').style.width=Math.min(100,pct)+'%';
+  $('#rSub').textContent=done?'Voting has ended. Final results for this '+T.org+':':'Live turnout only. Results for this '+T.org+' unlock after voting ends.';
+  $('#rBody').innerHTML=done?resultsHtml():'';
+  $('#dlPdf').disabled=$('#dlXls').disabled=!done;
+  $('#pMember').innerHTML=el.filter(m=>!m.voted).map(m=>`<option value="${m.id}">${esc(m.name)} · ${esc(m.phone)}</option>`).join('')||'<option value="">Everyone eligible has voted</option>';
+  $('#aBody').innerHTML=S.logs.map(l=>`<tr><td class="font-mono">${esc(l.time)}</td><td>${esc(l.admin)}</td><td>${esc(l.action)}</td><td>${esc(l.area)}</td><td class="font-mono text-amber-300">${esc(l.hash)}</td></tr>`).join('');
+  paintMenu();
+}
+$('#search').addEventListener('input',render);
+$('#vf').addEventListener('change',render);
+
+// ---- Actions ----
+document.addEventListener('click',async e=>{
+  const b=e.target.closest('[data-act]'); if(b){
+    const id=b.dataset.id, m=S.members.find(x=>x.id===id), c=S.candidates.find(x=>x.id===id);
+    if(b.dataset.act==='elig'&&m){
+      if(m.voted){toast('This member has already voted; eligibility is locked.');return}
+      m.role=m.role==='Communicant'?'Non-voting':'Communicant';
+      await log(m.name+' set to '+m.role,'Members');
+    }
+    if(b.dataset.act==='appr'&&c){c.status=c.status==='Approved'?'Pending':'Approved';await log(c.name+' '+c.status.toLowerCase(),'Candidates')}
+    if(b.dataset.act==='rmc'&&c&&(S.votes||[]).some(v=>v.candidateId===id)){toast('This candidate already has votes, so they can’t be removed.');return}
+    if(b.dataset.act==='rmc'&&c&&confirm('Remove '+c.name+' from the ballot?')){S.candidates=S.candidates.filter(x=>x.id!==id);await log('Removed candidate '+c.name,'Candidates')}
+    if(b.dataset.act==='rmm'&&m){
+      if(m.voted){toast('This member has already voted and can’t be removed.');return}
+      if(confirm('Remove '+m.name+' from the members list?')){S.members=S.members.filter(x=>x.id!==id);await log('Removed member '+m.name,'Members')}
+    }
+    render();
+  }
+  const rp=e.target.closest('[data-rmp]'); if(rp){const n=rp.dataset.rmp;
+    if(S.candidates.some(c=>c.position===n)){toast('Remove that position’s candidates first.');return}
+    if(confirm('Remove position "'+n+'"?')){S.positions=S.positions.filter(x=>x!==n);await log('Removed position '+n,'Election');render()}
+  }
+  const p=null; if(p){  /* view only: only the main admin starts or ends voting */
+    if(p.dataset.phase==='closed'&&!confirm('Close voting? Members will no longer be able to vote.'))return;
+    const ph=p.dataset.phase, n=nowLocal(); S.phase=ph; S.setAt=new Date().toISOString(); S.setBy=user;
+    if(ph==='closed')S.end=n;
+    if(ph==='open'){if(S.start&&S.start>n)S.start=n; if(S.end&&S.end<=n)S.end=''}
+    fillSched(); await log('Voting set to '+ph,'Voting window'); render();
+  }
+});
+function shrink(file,max=240){return new Promise((res,rej)=>{
+  const img=new Image(), url=URL.createObjectURL(file);
+  img.onload=()=>{const r=Math.min(1,max/Math.max(img.width,img.height)),c=document.createElement('canvas');
+    c.width=Math.round(img.width*r);c.height=Math.round(img.height*r);c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+    URL.revokeObjectURL(url);res(c.toDataURL('image/jpeg',.8))};
+  img.onerror=()=>rej(new Error('bad image')); img.src=url;
+})}
+$('#cPic').addEventListener('change',async e=>{
+  const f=e.target.files[0],pv=$('#cPrev'); if(!f){pv.classList.add('hidden');return}
+  try{pv.src=await shrink(f);pv.classList.remove('hidden')}catch(err){toast('That file isn’t a readable image.');e.target.value=''}
+});
+$('#candForm').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const name=$('#cName').value.trim(), idNo=$('#cId').value.trim(), phone=$('#cPhone').value.trim(), pos=$('#cPos').value, bio=$('#cBio').value.trim(), f=$('#cPic').files[0];
+  if(!pos)return toast('Add a position first (Election tab).');
+  if(!/^\d{6,10}$/.test(idNo))return toast('Enter a valid ID number (6–10 digits).');
+  if(!/^\+?\d{9,13}$/.test(phone.replace(/\s/g,'')))return toast('Enter a valid phone number.');
+  if(S.candidates.some(c=>c.idNo===idNo&&c.position===pos))return toast('That ID is already registered for '+pos+'.');
+  let pic; try{pic=await shrink(f)}catch(err){return toast('Choose a valid photo.')}
+  S.candidates.push({id:uid('C'),name,idNo,phone,pic,position:pos,bio,status:'Pending'});
+  await log('Registered candidate '+name+' (ID '+idNo+') for '+pos,'Candidates');
+  e.target.reset(); $('#cPrev').classList.add('hidden'); render(); toast('Candidate registered. Approve them when the board confirms.');
+});
+$('#proxyForm').addEventListener('submit',async e=>{
+  e.preventDefault(); const m=S.members.find(x=>x.id===$('#pMember').value); if(!m||m.voted)return;
+  if(S.phase==='closed')return toast('Voting is closed.');
+  m.voted=true; m.via=$('#pMethod').value.split(' ')[0].toLowerCase();
+  await log('Recorded '+$('#pMethod').value+' for '+m.name+' (witness: '+$('#pWit').value.trim()+')','Paper & proxy'); e.target.reset(); render(); toast('Participation recorded.');
+});
+$('#csv').onclick=()=>{
+  const rows=[['Time','Subadmin','Action','Area','Hash'],...S.logs.map(l=>[l.time,l.admin,l.action,l.area,l.hash])];
+  const t=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
+  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([t],{type:'text/csv'})); a.download='quofy-audit-log.csv'; a.click();
+};
+
+// ---- Members, positions, schedule ----
+$('#memForm').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const name=$('#mName').value.trim(), phone=$('#mPhone').value.trim(), np=phone.replace(/\s/g,'');
+  if(!/^\+?\d{9,13}$/.test(np))return toast('Enter a valid phone number.');
+  if(S.members.some(m=>(m.phone||'').replace(/\s/g,'')===np))return toast('A member with that phone number already exists.');
+  S.members.push({id:uid('M'),name,phone,role:$('#mRole').value,voted:false});
+  await log('Added member '+name,'Members'); e.target.reset(); render(); toast('Member added.');
+});
+$('#posForm').addEventListener('submit',async e=>{
+  e.preventDefault(); const n=$('#posName').value.trim();
+  if(S.positions.some(p=>p.toLowerCase()===n.toLowerCase()))return toast('That position already exists.');
+  S.positions.push(n); await log('Added position '+n,'Election'); e.target.reset(); render();
+});
+const nowLocal=()=>new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,16);
+function fillSched(){$('#vStart').value=S.start||'';$('#vEnd').value=S.end||''}
+window.__tickDisabled=true;
+function tick(){ return false; // the schedule no longer changes voting: the main admin does
+ // moves the phase automatically at the scheduled start/end
+  if(!S.start||!S.end||S.phase==='paused')return false;
+  const n=nowLocal(), w=n<S.start?'scheduled':n>=S.end?'closed':'open';
+  if(w!==S.phase){S.phase=w;S.setAt=new Date().toISOString();S.setBy='Schedule';return true} return false;
+}
+$('#saveSched').onclick=async()=>{
+  const a=$('#vStart').value, b=$('#vEnd').value;
+  if(!a||!b)return toast('Set both an opening and a closing time.');
+  if(b<=a)return toast('Closing time must be after opening time.');
+  S.start=a; S.end=b; if(S.phase!=='paused')S.phase='open'; tick(); S.setAt=new Date().toISOString(); S.setBy=user;
+  await log('Voting window set: '+a.replace('T',' ')+' to '+b.replace('T',' '),'Voting window'); render(); toast('Schedule saved.');
+};
+setInterval(async()=>{ if(!user)return; load(); if(tick())await log('Voting auto-set to '+S.phase,'Voting window'); render()},10000);
+window.addEventListener('storage',e=>{if(e.key===KEY&&user){load();render()}});
+
+// ---- Results ----
+// Reads S.votes = [{candidateId}] written by the voting page (one entry per vote, no voter identity).
+function tally(){const v=S.votes||[];return S.positions.map(p=>({p,rows:S.candidates.filter(c=>c.position===p&&c.status==='Approved').map(c=>({name:c.name,n:v.filter(x=>x.candidateId===c.id).length})).sort((a,b)=>b.n-a.n)})).filter(g=>g.rows.length)}
+function resultsHtml(){const g=tally();return g.length?g.map(x=>`<div class="bg-slate-800/80 border border-slate-700 rounded-2xl overflow-x-auto mb-3"><table class="w-full text-sm"><thead><tr><th>${esc(x.p)}</th><th class="text-right">Votes</th></tr></thead><tbody>${x.rows.map((r,i)=>`<tr><td>${esc(r.name)}${i===0&&r.n?' 🏆':''}</td><td class="text-right font-semibold">${r.n}</td></tr>`).join('')}</tbody></table></div>`).join(''):'<p class="text-sm text-slate-400">No approved candidates.</p>'}
+const turnout=()=>{const el=eligible();return el.filter(m=>m.voted).length+' of '+el.length+' eligible members voted'};
+$('#dlXls').onclick=async()=>{
+  if(S.phase!=='closed')return;
+  let t='<meta charset="UTF-8"><table border="1"><tr><td colspan="3"><b>Quofy – Election results</b></td></tr><tr><td colspan="3">Turnout: '+esc(turnout())+'</td></tr>';
+  tally().forEach(g=>{t+='<tr><td><b>'+esc(g.p)+'</b></td><td><b>Candidate</b></td><td><b>Votes</b></td></tr>'+g.rows.map(r=>'<tr><td></td><td>'+esc(r.name)+'</td><td>'+r.n+'</td></tr>').join('')});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([t+'</table>'],{type:'application/vnd.ms-excel'})); a.download='quofy-results.xls'; a.click();
+  await log('Downloaded results (Excel)','Results');
+};
+$('#dlPdf').onclick=async()=>{
+  if(S.phase!=='closed')return;
+  const f=document.createElement('iframe'); f.style.cssText='position:fixed;width:0;height:0;border:0'; document.body.appendChild(f);
+  const d=f.contentWindow.document; d.open();
+  d.write('<title>Quofy – Results</title><style>body{font-family:system-ui,sans-serif;padding:24px}table{border-collapse:collapse;width:100%;margin-bottom:18px}th,td{border:1px solid #999;padding:6px 10px;text-align:left}th{background:#eee}</style><h1>Quofy – Election results</h1><p>Turnout: '+esc(turnout())+'</p>'+
+    tally().map(g=>'<table><tr><th>'+esc(g.p)+'</th><th>Votes</th></tr>'+g.rows.map(r=>'<tr><td>'+esc(r.name)+'</td><td>'+r.n+'</td></tr>').join('')+'</table>').join(''));
+  d.close(); f.contentWindow.focus(); f.contentWindow.print(); setTimeout(()=>f.remove(),3000);
+  toast('Choose “Save as PDF” in the print dialog.'); await log('Downloaded results (PDF)','Results');
+};
+</script>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+import { getAuth, signInAnonymously, signInWithCustomToken, signOut } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-functions.js";
+import { getDatabase, ref, onValue, get, set, update, remove, runTransaction, onDisconnect, serverTimestamp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-database.js";
+/* ---- Error logging: every Firebase failure is written to the browser console (F12) ---- */
+const fbLog = (where, e) => console.error("[Firebase] " + where + ":", (e && e.code) || "", (e && e.message) || e);
+const fbMsg = (e) => /permission/i.test(String((e && e.code) || "") + String((e && e.message) || "")) ? "Permission denied. Check your Realtime Database rules." : (e && e.message) || String(e);
+const _toast = window.toast; window.toast = (m) => { if (/^(Could not|Sync error)/.test(String(m))) console.error("[Quofy] " + m); _toast(m); };
+window.addEventListener("unhandledrejection", (ev) => { const r = ev.reason || {}; if (/firebase|database|permission|network/i.test(String(r.code || "") + String(r.message || ""))) fbLog("unhandled", r); });
+let fbApp, fdb, auth;
+try { fbApp = initializeApp({
+  apiKey: "AIzaSyDzp3Ziqucl7YsCv3mA0HG8-iqazMDkH8s",
+  authDomain: "church-electorol.firebaseapp.com",
+  databaseURL: "https://church-electorol-default-rtdb.firebaseio.com",
+  projectId: "church-electorol",
+  storageBucket: "church-electorol.firebasestorage.app",
+  messagingSenderId: "915306543861",
+  appId: "1:915306543861:web:34eb4c354e7c5d887923bc",
+  measurementId: "G-9ELQY2ZWSC"
+});
+  fdb = getDatabase(fbApp); auth = getAuth(fbApp);
+} catch (e) {
+  fbLog("initializeApp / getDatabase", e);
+  const er = document.querySelector("#lockErr"); if (er) { er.textContent = "Could not start Firebase. Check your connection and reload."; er.classList.remove("hidden"); }
+  throw e;
+}
+const P = (p) => ref(fdb, p);
+const subLoginFn = httpsCallable(getFunctions(fbApp, "us-central1"), "subadminLogin");
+const EMAIL_RE = /^[^\s@<>]{1,64}@[^\s@<>]{1,255}\.[^\s@<>]{2,}$/;
+/* anonymous session: lets a visitor send a registration request and watch that one request. It grants no access to any church data. */
+const authReady = (auth.currentUser ? Promise.resolve() : signInAnonymously(auth)).catch((e) => fbLog("anonymous sign-in (enable Anonymous in Firebase Authentication)", e));
+/* Firebase add-on. The original subadmin code above is unchanged (same passcode sign-in); this keeps its data in sync with Firebase. */
+const newCode = () => "VOTE-" + Array.from(crypto.getRandomValues(new Uint8Array(6)), (b) => "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[b % 32]).join("");
+const slug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+const rows = (o) => Object.entries(o || {}).map(([id, x]) => ({ id, ...x }));
+let CHNAME = "", CH = null, prev = {}, applying = false, ready = false, started = false, tid = {}, idt = {}, allPos = new Set(), V = {}, VA = {}, VL = {}, XA = [], XL = [], RC = [];
+const seen = new Set(), NEED = 9, origSave = save;
+const pid = (t) => tid[t] || "p_" + slug(t);
+const REQ = "agc_sub_req", REM = "agc_sub_church", KIND = "agc_sub_kind", regForm = $("#regForm"), regMenu = $("#regMenu"), waitBox = $("#waitBox"), lockForm = $("#lockForm"), choiceBox = $("#choiceBox"), remBox = $("#remBox");
+let regKind = null; /* "organization" | "personal" – chosen on the register page */
+let reqId = localStorage.getItem(REQ), unsub = null, curReq = null, loaded = false, rem = null;
+try { rem = JSON.parse(localStorage.getItem(REM) || "null"); } catch (e) {}
+let mode = rem && rem.id ? "choice" : "default";
+const vis = (el, on) => el.classList.toggle("hidden", !on);
+function layout() {
+  vis(remBox, false);
+  if (mode === "choice") { $("#choiceInfo").textContent = "Last signed in on this device: " + (rem.name || "your account"); vis(choiceBox, true); vis(lockForm, false); vis(regMenu, false); vis(regForm, false); vis(waitBox, false); return; }
+  vis(choiceBox, false);
+  if (mode === "login") { CH = rem.id; vis(lockForm, true); vis(regMenu, false); vis(regForm, false); vis(waitBox, false); return; }
+  const r = curReq, t = $("#waitTitle"), m = $("#waitMsg"), b = $("#waitRetry"), ic = $("#waitIcon"), sb = $("#waitSub"); b.classList.add("hidden"); sb.textContent = "";
+  const spin = (on, ok) => { ic.className = on ? "pw-spin" : "pw-ok"; ic.innerHTML = on ? "<i></i><i></i><b></b>" : (ok ? "✓" : "✕"); if (!on && !ok) ic.style.cssText = "background:rgba(248,113,113,.15);color:#f87171"; else ic.style.cssText = ""; };
+  if (reqId && !loaded) { vis(regMenu, false); vis(regForm, false); vis(lockForm, false); vis(waitBox, false); return; }
+  if (!r) {
+    vis(waitBox, false);
+    if (mode === "register") { vis(lockForm, false); vis(regMenu, !regKind); vis(regForm, !!regKind); }
+    else { vis(regMenu, false); vis(regForm, false); vis(lockForm, true); }
+    return;
+  }
+  vis(regMenu, false); vis(regForm, false); vis(waitBox, true);
+  if (r.status === "Approved") { CH = r.churchId; vis(lockForm, true); spin(false, true); t.textContent = "✅ Approved"; m.textContent = "Your account has been approved. Enter the passcode emailed to " + (r.email || "you") + " in the sign-in box below."; }
+  else if (r.status === "Rejected") { vis(lockForm, false); spin(false, false); t.textContent = "Request declined"; m.textContent = "The admin did not approve this request. Please contact the electoral committee."; b.classList.remove("hidden"); }
+  else { vis(lockForm, false); spin(true); t.textContent = "Registration received"; m.textContent = "Thank you, " + r.name + ". Your registration is under review by an administrator. This page updates by itself the moment you are approved, so you can keep it open."; sb.textContent = "Your passcode will be emailed to " + (r.email || "you") + ". You cannot sign in until you are approved."; }
+}
+function paintReg() {
+  const p = regKind === "personal", ty = $("#rgType").value;
+  $("#rgTitle").textContent = p ? "Register for personal use" : "Register your organization";
+  $("#rgIntro").textContent = p ? "Send your details. The admin will approve you and email you a passcode for your personal finance account." : "Choose your organization type and send your details. The admin will approve you and email you a passcode.";
+  $("#rgNameLbl").textContent = p ? "Your name" : ty === "church" ? "Church name" : ty === "school" ? "School name" : "Organization name";
+  vis($("#rgTypeWrap"), !p); vis($("#rgCustomWrap"), !p && ty === "other");
+  $("#regErr").classList.add("hidden");
+}
+function watchReq() { if (unsub) unsub(); loaded = false; unsub = onValue(P("churchRequests/" + reqId), (s) => { curReq = s.val(); loaded = true; if (!curReq) { localStorage.removeItem(REQ); reqId = null; } layout(); }, (e) => { fbLog("churchRequests/" + reqId, e); loaded = true; layout(); }); }
+authReady.then(() => { if (reqId) watchReq(); });
+layout();
+$("#chReg").onclick = () => { mode = "register"; regKind = null; layout(); };
+$("#goReg").onclick = () => { mode = "register"; regKind = null; layout(); };
+$("#rmOrg").onclick = () => { regKind = "organization"; $("#rgType").value = "church"; $("#rgCustom").value = ""; paintReg(); layout(); };
+$("#rgType").onchange = paintReg;
+$("#rmPersonal").onclick = () => { regKind = "personal"; paintReg(); layout(); };
+$("#rmBack").onclick = () => { mode = rem && rem.id ? "choice" : "default"; regKind = null; layout(); };
+$("#rgBack").onclick = () => { regKind = null; layout(); };
+$("#chLogin").onclick = () => { mode = "login"; layout(); };
+$("#waitRetry").onclick = () => { localStorage.removeItem(REQ); reqId = null; curReq = null; if (unsub) unsub(); mode = "register"; regKind = null; layout(); };
+regForm.addEventListener("submit", async (e) => {
+  e.preventDefault(); const er = $("#regErr"), fail = (m) => { er.textContent = m; er.classList.remove("hidden"); };
+  const name = $("#rgName").value.trim(), loc = $("#rgLoc").value.trim(), con = $("#rgCon").value.trim();
+  const org = regKind !== "personal", oty = org ? $("#rgType").value : "", cus = org && oty === "other" ? $("#rgCustom").value.trim() : "";
+  if (org && oty === "other" && cus.length < 2) return fail("Type your organization type, e.g. Sacco or Alumni Club.");
+  if (name.length < 2) return fail("Enter your name."); if (loc.length < 2) return fail("Enter your location."); if (con.replace(/\s/g, "").length < 7) return fail("Enter a phone number we can reach you on.");
+  const email = $("#rgEmail").value.trim().toLowerCase(); if (!EMAIL_RE.test(email)) return fail("Enter a valid email address. Your passcode is sent there.");
+  try {
+    await authReady; if (!auth.currentUser) return fail("Could not start a secure session. Reload and try again.");
+    if (rows((await get(P("churches"))).val()).some((c) => c.name.toLowerCase() === name.toLowerCase())) return fail("An account with that name is already registered. Contact the admin.");
+    const id = "R" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+    const rec = { name, location: loc, contacts: con, email, ownerUid: auth.currentUser.uid, accountType: org ? "organization" : "personal", ...(org ? { orgType: oty, ...(cus ? { customName: cus.slice(0, 40) } : {}) } : {}), status: "Pending", time: new Date().toISOString() };
+    try { await set(P("churchRequests/" + id), rec); }
+    catch (e1) { if (!/permission/i.test(String(e1.code || "") + String(e1.message || ""))) throw e1; fbLog("churchRequests (retry without accountType)", e1); delete rec.accountType; delete rec.orgType; delete rec.customName; await set(P("churchRequests/" + id), rec); }
+    reqId = id; localStorage.setItem(REQ, id); localStorage.setItem(KIND, JSON.stringify({ kind: org ? "organization" : "personal", sub: oty, custom: cus })); er.classList.add("hidden"); regForm.reset(); watchReq(); layout();
+  } catch (err) { fbLog("register request", err); fail("Could not send your request. " + fbMsg(err)); }
+});
+// Sign-in: the passcode is checked on the server, never in this page.
+$("#lockForm").addEventListener("submit", async (e) => {
+  e.stopImmediatePropagation(); e.preventDefault(); const er = $("#lockErr"), fail = (m) => { er.textContent = m; er.classList.remove("hidden"); };
+  try {
+    await authReady; const out = await subLoginFn({ passcode: $("#pw").value.trim() }); await signInWithCustomToken(auth, out.data.token);
+    const claims = (await auth.currentUser.getIdTokenResult(true)).claims; if (!claims.churchId) return fail("Sign-in failed. Contact the admin.");
+    const c = (await get(P("churches/" + claims.churchId))).val();
+    if (!c || c.blocked) { await signOut(auth); return fail("This account is not active. Contact the admin."); }
+    CH = claims.churchId; CHNAME = c.name;
+  } catch (err) { fbLog("sign-in", err); return fail(/permission-denied|resource-exhausted|invalid-argument/.test(String(err.code || "")) ? String(err.message || "Wrong passcode.").replace(/^.*?:\s*/, "") : "Could not reach the server. " + fbMsg(err)); }
+  [lockForm, regMenu, regForm, waitBox, choiceBox].forEach((el) => vis(el, false)); vis(remBox, true);
+  const keep = await new Promise((res) => { $("#remYes").onclick = () => res(true); $("#remNo").onclick = () => res(false); });
+  localStorage.removeItem(REQ);
+  if (keep) localStorage.setItem(REM, JSON.stringify({ id: CH, name: CHNAME })); else localStorage.removeItem(REM);
+  user = "Subadmin"; $("#lock").classList.add("hidden"); $("#app").classList.remove("hidden");
+  $("#pw").value = ""; await log("Signed in", "Access"); tick(); fillSched(); render(); showTab("dash");
+}, true);
+setInterval(() => { if (user && CH && !started) { started = true; start(); } }, 300);
+
+let ACC = "";
+function flatS() { const o = {}, A = ACC + "/";
+  /* New schema: organizeify_accounts/<account>/...   Also mirrored to the older paths the main admin portal reads. */
+  S.members.forEach((m) => { if (!m.code) m.code = newCode(); const rec = { name: m.name, phone: m.phone, role: m.role, code: m.code };
+    o[A + "members/" + m.id] = rec; o[`members/${CH}/${m.id}`] = rec; o[`codes/${m.code}`] = { c: CH, m: m.id };
+    if (m.voted) { const vr = { via: m.via || "paper", ref: m.ref || "", time: m.vtime || (m.vtime = new Date().toISOString()) }; o[A + "voted/" + m.id] = vr; o[`voted/${CH}/${m.id}`] = vr; } });
+  S.positions.forEach((t) => { o[A + "positions/" + pid(t)] = { title: t, cands: [] }; o["positions/" + pid(t)] = { title: t, scope: CH, cands: [] }; });
+  S.candidates.forEach((c) => { const cr = { name: c.name, idNo: c.idNo, phone: c.phone, pic: c.pic, posId: pid(c.position), bio: c.bio, status: c.status }; o[A + "candidates/" + c.id] = cr; o[`candidates/${CH}/${c.id}`] = cr; });
+  o[A + "settings/quorum"] = S.quorum || 50; o["churchSettings/" + CH + "/quorum"] = S.quorum || 50;
+  S.logs.forEach((l) => { const lr = { time: l.time, admin: l.admin, action: l.action, area: l.area, hash: l.hash }; o[A + "audit/" + l.hash] = lr; o[`subaudit/${CH}/${l.hash}`] = lr; });
+  return o; }
+const diff = (a, b) => { const j = JSON.stringify, u = {};
+  Object.keys(b).forEach((k) => { if (j(a[k]) !== j(b[k])) u[k] = JSON.parse(j(b[k])); });
+  Object.keys(a).forEach((k) => { if (!(k in b)) u[k] = null; });
+  return u; };
+window.save = function () { origSave(); if (applying || !ready) return; const n = flatS(), u = diff(prev, n); prev = n;
+  if (Object.keys(u).length) update(ref(fdb), u).catch((e) => { fbLog("save (update)", e); toast("Could not save to Firebase: " + fbMsg(e)); }); };
+const mapC = () => { S.candidates = RC.map((c) => ({ id: c.id, name: c.name, idNo: c.idNo, phone: c.phone, pic: c.pic, position: idt[c.posId] || c.posId, bio: c.bio, status: c.status })); };
+const recompute = () => S.members.forEach((m) => { const x = V[m.id]; m.voted = !!x; m.via = x ? x.via : undefined; m.vtime = x ? x.time : undefined; if (x) m.ref = x.ref; });
+function got(k, fn) { applying = true; fn(); origSave(); applying = false; seen.add(k); if (seen.size >= NEED) ready = true; if (ready) { window.__ready = true; prev = flatS(); } render(); }
+/* Live dashboard summary: the 4 dashboard numbers are written to dashStats/<church> so the admin portal and any other page can read them in real time.
+   Written separately from the main update() so a permissions problem here can never block members/votes/candidates from saving. */
+let lastDash = "";
+function pushDash() {
+  if (!ready || !CH || !user || PERSONAL) return;
+  const el = S.members.filter((m) => m.role === "Communicant"), cast = el.filter((m) => m.voted).length, need = Math.ceil(el.length * (S.quorum || 50) / 100);
+  const d = { eligible: el.length, ballots: cast, turnoutPct: el.length ? Math.round(cast / el.length * 1000) / 10 : 0, quorumNeeded: need, quorumMet: !!(el.length && cast >= need), candidates: S.candidates.length, approved: S.candidates.filter((c) => c.status === "Approved").length, phase: S.phase || "open" };
+  const j = JSON.stringify(d); if (j === lastDash) return; lastDash = j;
+  set(P("dashStats/" + CH), { ...d, updatedAt: serverTimestamp() }).catch((e) => { lastDash = ""; fbLog("dashStats/" + CH, e); });
+}
+const origRender = render; window.render = function () { origRender(); pushDash(); };
+function announce() { if (!CH || !user) return; const r = P("subStatus/" + CH); onDisconnect(r).set({ online: false, lastSeen: serverTimestamp() }).then(() => set(r, { online: true, lastSeen: serverTimestamp() })).catch((e) => fbLog("subStatus", e)); }
+window.__offline = () => CH ? set(P("subStatus/" + CH), { online: false, lastSeen: serverTimestamp() }).catch((e) => fbLog("subStatus (offline)", e)) : null;
+{ const _off = window.__offline; window.__offline = async () => { try { if (_off) await _off(); } finally { await signOut(auth).catch(() => {}); } }; }
+async function start() {
+  ACC = "organizeify_accounts/" + CH; window.ACCNAME = CHNAME;
+  announce();
+  await migrateLegacy();
+  try {
+    const pf = (await get(P(ACC + "/profile"))).val(); let kd = null; try { kd = JSON.parse(localStorage.getItem(KIND) || "null"); } catch (x) {}
+    if (pf) applyProfile(pf);
+    else {
+      /* skip the "how will you use this account?" question when the person already chose organization (church/school/other) or personal on the register page */
+      if (kd && kd.kind === "personal") await saveProfile({ type: "personal", subType: "", customName: "" });
+      else if (kd && kd.kind === "organization") { const sub = ["church", "school", "other"].includes(kd.sub) ? kd.sub : "other"; await saveProfile({ type: "organization", subType: sub, customName: sub === "other" ? String(kd.custom || "Organization").slice(0, 40) : "" }); }
+      if (!PROFILE) await chooseProfile(true);
+    }
+    localStorage.removeItem(KIND);
+  } catch (e) { fbLog(ACC + "/profile", e); toast("Could not load your account: " + fbMsg(e)); }
+  const on = (p, k, fn) => onValue(P(p), (s) => got(k, () => fn(s.val())), (e) => { fbLog("listener " + p, e); toast("Sync error: " + fbMsg(e)); });
+  on(ACC + "/members", "m", (v) => { S.members = rows(v).map((m) => ({ id: m.id, name: m.name, phone: m.phone || "", role: m.role, code: m.code })); recompute(); });
+  /* voted + votes are read from BOTH the new path (organizeify_accounts/<church>/...) and the older path (voted/<church>, votes/<church>) so a ballot cast on the voter page shows up here live whichever path that page writes to. */
+  on(ACC + "/voted", "v", (v) => { VA = v || {}; V = { ...VL, ...VA }; recompute(); });
+  on("voted/" + CH, "v2", (v) => { VL = v || {}; V = { ...VL, ...VA }; recompute(); });
+  on(ACC + "/positions", "p", (v) => { const ps = rows(v);
+    if (!ps.length) { S.positions = T.defaults.slice(); tid = {}; idt = {}; const up = {};
+      S.positions.forEach((t) => { up[ACC + "/positions/" + pid(t)] = { title: t, cands: [] }; up["positions/" + pid(t)] = { title: t, scope: CH, cands: [] }; });
+      if (Object.keys(up).length) update(ref(fdb), up).catch((e) => fbLog("seed positions", e)); mapC(); return; }
+    tid = {}; idt = {}; allPos = new Set(); S.positions = ps.map((p) => { tid[p.title] = p.id; idt[p.id] = p.title; return p.title; }); mapC(); });
+  on(ACC + "/candidates", "c", (v) => { RC = rows(v); mapC(); });
+  const setVotes = () => { const src = XA.length ? XA : XL; S.votes = src.filter((x) => !x.void).map((x) => ({ candidateId: x.candId, pos: x.pos, cand: x.cand })); };
+  on(ACC + "/votes", "x", (v) => { XA = rows(v); setVotes(); });
+  on("votes/" + CH, "x2", (v) => { XL = rows(v); setVotes(); });
+  on("churchSettings/" + CH, "s", (v) => { v = v || {}; const st = String(v.status || "").toLowerCase();
+    S.phase = st === "live" ? "open" : st === "ended" ? "closed" : "scheduled"; S.start = ""; S.end = ""; S.quorum = v.quorum || 50;
+    S.setAt = st === "ended" ? v.endedAt || "" : v.startedAt || ""; S.setBy = st === "ended" ? v.endedBy || "" : v.startedBy || ""; fillSched(); });
+  on(ACC + "/audit", "a", (v) => { S.logs = rows(v).sort((a, b) => b.time.localeCompare(a.time)); });
+  onValue(P(ACC + "/profile"), (s) => { const pf = s.val(); if (pf && JSON.stringify(pf) !== JSON.stringify(PROFILE)) applyProfile(pf); }, (e) => fbLog(ACC + "/profile", e));
+  watchFinance();
+}
+/* ---- Voting codes tab: one code can log in up to 500 voters ---- */
+let SC = [];
+const codeKey = () => "VOTE-" + Array.from(crypto.getRandomValues(new Uint8Array(8)), (b) => "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[b % 32]).join("");
+let srvOff = 0; onValue(P(".info/serverTimeOffset"), (s) => { srvOff = s.val() || 0; paintCodes(); }, (e) => fbLog(".info/serverTimeOffset", e));
+const srvNow = () => Date.now() + srvOff;
+const isExp = (c) => !!c.expiresAt && srvNow() >= c.expiresAt;
+function expText(c) {
+  if (!c.expiresAt) return "No expiry";
+  const ms = c.expiresAt - srvNow(); if (ms <= 0) return "Expired " + new Date(c.expiresAt).toLocaleString([], { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+  const m = Math.ceil(ms / 60000), d = Math.floor(m / 1440), hr = Math.floor((m % 1440) / 60), mi = m % 60;
+  return "Expires in " + (d ? d + "d " : "") + (hr ? hr + "h " : "") + (!d ? mi + "m" : "").trim();
+}
+function paintCodes() {
+  $("#codeList").innerHTML = SC.length ? SC.map((c) => `<div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3"><div><div class="font-mono text-lg text-amber-300">${esc(c.id)}</div><div class="text-xs text-slate-400">${esc(c.label || "No label")} · ${c.used || 0} of ${c.cap} voters${c.closed ? " · closed" : ""} · <span class="${isExp(c) ? "text-red-300" : "text-emerald-300"}">${expText(c)}</span></div></div><div class="flex gap-2"><button class="btn2" data-cp="${esc(c.id)}">Copy</button><button class="btn2" data-ct="${esc(c.id)}">${c.closed ? "Reopen" : "Close"}</button><button class="btn2 text-red-300" data-cd="${esc(c.id)}">Delete</button></div></div>`).join("") : '<p class="text-sm text-slate-400">No codes yet.</p>';
+  window.SCN = SC.filter((c) => !c.closed).length; paintMenu();
+}
+$("#codeForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); const cap = parseInt($("#cdCap").value, 10), label = $("#cdLabel").value.trim();
+  const ttl = Math.round(parseFloat($("#cdExp").value) * parseInt($("#cdUnit").value, 10));
+  if (!CH) return toast("Sign in first.");
+  if (!(cap >= 1 && cap <= 500)) return toast("A code can cover 1 to 500 voters.");
+  if (!(ttl >= 60000)) return toast("Enter how long the code lasts (at least 1 minute).");
+  if (ttl > 30 * 86400000) return toast("A code can last at most 30 days.");
+  const createdAt = srvNow(), expiresAt = createdAt + ttl;
+  const code = codeKey();
+  try {
+    const rec = { label, cap, used: 0, closed: false, at: new Date().toISOString(), createdAt, expiresAt, ttlMs: ttl };
+    await update(ref(fdb), { [ACC + "/sharedCodes/" + code]: rec, ["sharedCodes/" + CH + "/" + code]: rec, ["codes/" + code]: { c: CH, shared: true } });
+    await log("Created voting code for " + cap + " voters" + (label ? " (" + label + ")" : "") + ", expires " + new Date(expiresAt).toLocaleString([], { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }), "Voting codes"); e.target.reset(); $("#cdCap").value = 500; $("#cdExp").value = 24; $("#cdUnit").value = "3600000"; toast("Code created: " + code);
+  } catch (err) { fbLog("create voting code", err); toast("Could not create the code: " + fbMsg(err)); }
+});
+$("#codeList").addEventListener("click", async (e) => {
+  const cp = e.target.closest("[data-cp]"), ct = e.target.closest("[data-ct]"), cd = e.target.closest("[data-cd]");
+  if (cd) { const c = SC.find((x) => x.id === cd.dataset.cd); if (!c) return; if ((c.used || 0) > 0) return toast("This code has been used. Close it instead of deleting.");
+    if (!confirm("Delete voting code " + c.id + "?")) return;
+    try { await update(ref(fdb), { [ACC + "/sharedCodes/" + c.id]: null, ["sharedCodes/" + CH + "/" + c.id]: null, ["codes/" + c.id]: null }); await log("Deleted voting code " + c.id, "Voting codes"); toast("Code deleted."); } catch (err) { fbLog("delete voting code", err); toast("Could not delete: " + fbMsg(err)); } return; }
+  if (cp) { try { await navigator.clipboard.writeText(cp.dataset.cp); toast("Code copied."); } catch (x) { toast(cp.dataset.cp); } }
+  if (ct) { const c = SC.find((x) => x.id === ct.dataset.ct); if (!c) return; try { await update(ref(fdb), { [ACC + "/sharedCodes/" + c.id + "/closed"]: !c.closed, ["sharedCodes/" + CH + "/" + c.id + "/closed"]: !c.closed }); await log((c.closed ? "Reopened" : "Closed") + " voting code " + c.id, "Voting codes"); } catch (err) { fbLog("close/reopen voting code", err); toast("Could not save: " + fbMsg(err)); } }
+});
+let SCA = {}, SCL = {};
+const mergeCodes = () => { const ids = new Set([...Object.keys(SCA), ...Object.keys(SCL)]); /* "used" is the higher of the two so voter-page counts show whichever path it increments */
+  SC = [...ids].map((id) => { const a = SCA[id] || {}, l = SCL[id] || {}; return { id, ...l, ...a, used: Math.max(+a.used || 0, +l.used || 0) }; }).sort((a, b) => String(b.at).localeCompare(String(a.at))); paintCodes(); };
+setInterval(() => { if (CH && started && !window.__scWatch) { window.__scWatch = true;
+  onValue(P(ACC + "/sharedCodes"), (s) => { SCA = s.val() || {}; mergeCodes(); }, (e) => fbLog(ACC + "/sharedCodes", e));
+  onValue(P("sharedCodes/" + CH), (s) => { SCL = s.val() || {}; mergeCodes(); }, (e) => fbLog("sharedCodes/" + CH, e)); } }, 400);
+onValue(ref(fdb, ".info/connected"), (s) => { const on = s.val() === true, l = $("#live"); l.textContent = on ? "● Live" : "● Offline"; l.className = "text-xs font-semibold px-2 py-1 rounded-full " + (on ? "bg-emerald-500/15 text-emerald-300" : "bg-red-500/15 text-red-300"); if (on) announce(); }, (e) => fbLog(".info/connected", e));
+setInterval(announce, 60000);
+setInterval(paintCodes, 30000);
+
+/* ===== Copy an older account's data into organizeify_accounts/<account> the first time it signs in ===== */
+async function migrateLegacy() {
+  try {
+    if ((await get(P(ACC + "/members"))).exists() || (await get(P(ACC + "/profile"))).exists()) return;
+    const g = async (p) => (await get(P(p))).val() || {};
+    const [mem, vtd, cnd, vts, shc, aud, pos] = await Promise.all([g("members/" + CH), g("voted/" + CH), g("candidates/" + CH), g("votes/" + CH), g("sharedCodes/" + CH), g("subaudit/" + CH), g("positions")]);
+    const up = {}, cp = (src, dst) => Object.entries(src).forEach(([k, v]) => (up[ACC + "/" + dst + "/" + k] = v));
+    cp(mem, "members"); cp(vtd, "voted"); cp(cnd, "candidates"); cp(vts, "votes"); cp(shc, "sharedCodes"); cp(aud, "audit");
+    Object.entries(pos).forEach(([k, p]) => { if (p.scope === CH) up[ACC + "/positions/" + k] = { title: p.title, cands: p.cands || [] }; });
+    if (Object.keys(up).length) await update(ref(fdb), up);
+  } catch (e) { fbLog("migrateLegacy", e); toast("Could not copy your earlier data: " + fbMsg(e)); }
+}
+
+/* ===== First-time setup: Organization or Personal Use ===== */
+let suResolve = null, suSel = "church", profLoaded = false;
+const su = $("#setup");
+function selType(t) { suSel = t; $$(".suT").forEach((b) => b.classList.toggle("on", b.dataset.t === t)); vis($("#suCustomWrap"), t === "other"); }
+function openSetup(first) { vis($("#su1"), true); vis($("#su2"), false); vis($("#suCancel"), !first); su.classList.remove("hidden"); }
+function chooseProfile(first) { return new Promise((res) => { suResolve = res; openSetup(first); }); }
+async function saveProfile(pf) {
+  pf.createdAt = (PROFILE && PROFILE.createdAt) || srvNow();
+  try { await set(P(ACC + "/profile"), pf); applyProfile(pf); su.classList.add("hidden"); if (suResolve) { suResolve(); suResolve = null; } }
+  catch (e) { toast("Could not save: " + e.message); }
+}
+$("#suPers").onclick = () => saveProfile({ type: "personal", subType: "", customName: "" });
+$("#suOrg").onclick = () => { vis($("#su1"), false); vis($("#su2"), true); selType((PROFILE && PROFILE.subType) || "church"); if (PROFILE && PROFILE.customName) $("#suCustom").value = PROFILE.customName; };
+$$(".suT").forEach((b) => (b.onclick = () => selType(b.dataset.t)));
+$("#suBack").onclick = () => { vis($("#su1"), true); vis($("#su2"), false); };
+$("#suGo").onclick = () => { const cn = $("#suCustom").value.trim();
+  if (suSel === "other" && cn.length < 2) return toast("Type your organization type, e.g. Sacco or Alumni Club.");
+  saveProfile({ type: "organization", subType: suSel, customName: suSel === "other" ? cn.slice(0, 40) : "" }); };
+$("#suCancel").onclick = () => su.classList.add("hidden");
+$("#chType").onclick = () => { if (CH) openSetup(false); };
+function applyProfile(pf) {
+  const was = PERSONAL; PROFILE = pf; PERSONAL = pf.type === "personal"; T = orgTerms(pf);
+  document.body.classList.toggle("mode-personal", PERSONAL); applyTerms();
+  if (!profLoaded || was !== PERSONAL) showTab(PERSONAL ? "fin_cash" : "dash");
+  profLoaded = true; render(); paintFinance();
+}
+
+/* ===== Personal finance & business manager (synced to organizeify_accounts/<account>/finance_*) ===== */
+const CUR = "KES", money = (n) => CUR + " " + (Number(n) || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+let FL = [], FB = {}, FE = {};
+const todayStr = () => new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+const catKey = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "") || "other";
+const sumOf = (l, t) => l.filter((x) => x.type === t).reduce((a, x) => a + (+x.amount || 0), 0);
+const byCat = (l) => { const m = {}; l.forEach((x) => { const k = x.category || "Other"; m[k] = (m[k] || 0) + (+x.amount || 0); }); return Object.entries(m).sort((a, b) => b[1] - a[1]); };
+const monthName = (m) => new Date(m + "-01T00:00").toLocaleString([], { month: "long", year: "numeric" });
+function periodOpts() {
+  const ms = [...new Set([todayStr().slice(0, 7), ...FL.map((x) => String(x.date).slice(0, 7))])].sort().reverse(), ys = [...new Set(ms.map((m) => m.slice(0, 4)))];
+  return '<option value="all">All time</option>' + ys.map((y) => `<option value="Y${y}">Year ${y}</option>`).join("") + ms.map((m) => `<option value="M${m}">${monthName(m)}</option>`).join("");
+}
+const inP = (x, p) => p === "all" || (p[0] === "Y" ? String(x.date).slice(0, 4) === p.slice(1) : String(x.date).slice(0, 7) === p.slice(1));
+function keepSel(id) { const s = $(id), v = s.value; s.innerHTML = periodOpts(); s.value = [...s.options].some((o) => o.value === v) ? v : "M" + todayStr().slice(0, 7); }
+const stat = (l, v, cls) => `<div class="card text-center !p-3"><p class="text-[11px] text-slate-400">${l}</p><p class="text-base font-extrabold ${cls || ""}">${v}</p></div>`;
+const bars = (list, total, cls) => list.length ? list.map(([k, v]) => `<div><div class="flex justify-between text-xs"><span>${esc(k)}</span><span>${money(v)} · ${total ? Math.round((v / total) * 100) : 0}%</span></div><div class="bar"><i style="width:${total ? Math.min(100, (v / total) * 100) : 0}%"></i></div></div>`).join("") : '<p class="text-sm text-slate-400">Nothing yet.</p>';
+const delBtn = (a, id) => `<button class="btn2 text-red-300" ${a}="${esc(id)}">Delete</button>`;
+function paintFinance() {
+  if (!PERSONAL || !CH) return;
+  ["#cMonth", "#bMonth", "#rPeriod"].forEach(keepSel);
+  const cash = FL.filter((x) => x.kind === "cash"), biz = FL.filter((x) => x.kind === "biz"), cm = $("#cMonth").value, bm = $("#bMonth").value;
+  const cp = cash.filter((x) => inP(x, cm)), inc = sumOf(cp, "income"), exp = sumOf(cp, "expense");
+  $("#cashStats").innerHTML = stat("Income", money(inc), "pos") + stat("Expenses", money(exp), "neg") + stat("Net", money(inc - exp), inc - exp >= 0 ? "pos" : "neg");
+  $("#cashBreak").innerHTML = bars(byCat(cp.filter((x) => x.type === "expense")), exp);
+  $("#cashBody").innerHTML = cp.sort((a, b) => String(b.date).localeCompare(String(a.date)) || (b.at || 0) - (a.at || 0)).map((x) => `<tr><td>${esc(x.date)}</td><td>${esc(x.category)}<div class="text-xs text-slate-400">${esc(x.note || "")}</div></td><td class="text-right ${x.type === "income" ? "pos" : "neg"}">${x.type === "income" ? "+" : "−"}${money(x.amount)}</td><td class="text-right">${delBtn("data-fdel", x.id)}</td></tr>`).join("") || '<tr><td colspan="4" class="text-slate-400">No entries for this period.</td></tr>';
+  $("#catList").innerHTML = [...new Set(cash.map((x) => x.category))].map((c) => `<option value="${esc(c)}">`).join("");
+  const bp = biz.filter((x) => inP(x, bm)), sales = sumOf(bp, "sale"), purch = sumOf(bp, "purchase"), pl = sales - purch;
+  $("#bizStats").innerHTML = stat("Sales", money(sales), "pos") + stat("Purchases", money(purch), "neg") + stat(pl >= 0 ? "Profit" : "Loss", money(Math.abs(pl)), pl >= 0 ? "pos" : "neg") + stat("Margin", sales ? Math.round((pl / sales) * 100) + "%" : "—", pl >= 0 ? "pos" : "neg");
+  $("#bizBody").innerHTML = bp.sort((a, b) => String(b.date).localeCompare(String(a.date)) || (b.at || 0) - (a.at || 0)).map((x) => `<tr><td>${esc(x.date)}</td><td>${esc(x.type === "sale" ? "Sale" : "Purchase")}: ${esc(x.item)}<div class="text-xs text-slate-400">${esc(x.note || "")}</div></td><td class="text-right ${x.type === "sale" ? "pos" : "neg"}">${x.type === "sale" ? "+" : "−"}${money(x.amount)}</td><td class="text-right">${delBtn("data-fdel", x.id)}</td></tr>`).join("") || '<tr><td colspan="4" class="text-slate-400">No records for this period.</td></tr>';
+  const thisM = todayStr().slice(0, 7), spent = {}; cash.filter((x) => x.type === "expense" && String(x.date).slice(0, 7) === thisM).forEach((x) => { const k = catKey(x.category || ""); spent[k] = (spent[k] || 0) + (+x.amount || 0); });
+  const bl = Object.entries(FB).map(([k, b]) => ({ k, ...b })), tl = bl.reduce((a, b) => a + (+b.limit || 0), 0), ts = bl.reduce((a, b) => a + (spent[b.k] || 0), 0);
+  $("#budList").innerHTML = (bl.length ? `<p class="text-xs text-slate-400">${monthName(thisM)}: spent ${money(ts)} of ${money(tl)} budgeted</p>` : '<p class="text-sm text-slate-400">No budgets yet. Add a category above.</p>') + bl.map((b) => { const s = spent[b.k] || 0, p = b.limit ? (s / b.limit) * 100 : 0;
+    return `<div class="card !p-3 space-y-1"><div class="flex justify-between items-center gap-2"><strong>${esc(b.name)}</strong><span class="text-xs ${p >= 100 ? "neg" : p >= 80 ? "text-amber-300" : "text-slate-400"}">${money(s)} / ${money(b.limit)}${p >= 100 ? " · over budget" : ""}</span>${delBtn("data-bdel", b.k)}</div><div class="bar"><i style="width:${Math.min(100, p)}%;background:${p >= 100 ? "#f87171" : p >= 80 ? "#fbbf24" : "#34d399"}"></i></div></div>`; }).join("");
+  paintEmergency(); paintReport();
+}
+function paintEmergency() {
+  const m = +FE.monthly || 0, n = +FE.months || 0, sv = +FE.saved || 0, ct = +FE.contrib || 0, target = m * n, rem = Math.max(0, target - sv), pct = target ? Math.min(100, (sv / target) * 100) : 0;
+  [["#emMonthly", "monthly"], ["#emMonths", "months"], ["#emSaved", "saved"], ["#emContrib", "contrib"]].forEach(([id, k]) => { const el = $(id); if (document.activeElement !== el && FE[k] !== undefined) el.value = FE[k]; });
+  const left = rem === 0 ? 0 : ct > 0 ? Math.ceil(rem / ct) : null, when = left ? new Date(new Date().setMonth(new Date().getMonth() + left)).toLocaleString([], { month: "long", year: "numeric" }) : "";
+  $("#emOut").innerHTML = target ? `<div class="bar"><i style="width:${pct}%"></i></div><p>Target: <strong>${money(target)}</strong> (${n} months of essentials) · Saved: <strong>${money(sv)}</strong> · Still needed: <strong>${money(rem)}</strong></p><p class="text-slate-300">${rem === 0 ? "🎉 Your emergency fund goal is reached." : ct > 0 ? `At ${money(ct)} a month you reach it in ${left} month${left === 1 ? "" : "s"} (about ${when}).` : "Add a monthly contribution to see when you will reach it."}</p>` : '<p class="text-slate-400">Enter your monthly essentials to see your target.</p>';
+}
+function reportData(p) {
+  const cash = FL.filter((x) => x.kind === "cash" && inP(x, p)), biz = FL.filter((x) => x.kind === "biz" && inP(x, p));
+  const income = sumOf(cash, "income"), expenses = sumOf(cash, "expense"), sales = sumOf(biz, "sale"), purchases = sumOf(biz, "purchase");
+  const label = p === "all" ? "All time" : p[0] === "Y" ? "Year " + p.slice(1) : monthName(p.slice(1));
+  return { label, income, expenses, net: income - expenses, rate: income ? Math.round(((income - expenses) / income) * 100) : null, inCat: byCat(cash.filter((x) => x.type === "income")), exCat: byCat(cash.filter((x) => x.type === "expense")), sales, purchases, profit: sales - purchases, em: { target: (+FE.monthly || 0) * (+FE.months || 0), saved: +FE.saved || 0 } };
+}
+const tbl = (head, rowsArr) => `<table border="1" cellpadding="4" style="border-collapse:collapse;width:100%"><tr>${head.map((h) => `<th style="background:#eee;text-align:left">${esc(h)}</th>`).join("")}</tr>${rowsArr.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>`;
+function reportHtml(r) {
+  return `<h2>${esc(PROFILE && PROFILE.type === "personal" ? "Personal" : "")} Financial summary – ${esc(r.label)}</h2><p>${esc(window.ACCNAME || "")} · Generated ${esc(new Date().toLocaleString())}</p>`
+    + "<h3>Cashflow</h3>" + tbl(["Item", "Amount"], [["Total income", money(r.income)], ["Total expenses", money(r.expenses)], ["Net cashflow", money(r.net)], ["Savings rate", r.rate === null ? "—" : r.rate + "%"]])
+    + "<h3>Income by category</h3>" + tbl(["Category", "Amount"], r.inCat.map(([k, v]) => [k, money(v)]))
+    + "<h3>Expenses by category</h3>" + tbl(["Category", "Amount"], r.exCat.map(([k, v]) => [k, money(v)]))
+    + "<h3>Business ledger</h3>" + tbl(["Item", "Amount"], [["Sales", money(r.sales)], ["Purchases", money(r.purchases)], [r.profit >= 0 ? "Profit" : "Loss", money(Math.abs(r.profit))]])
+    + "<h3>Emergency fund</h3>" + tbl(["Item", "Amount"], [["Target", money(r.em.target)], ["Saved", money(r.em.saved)], ["Still needed", money(Math.max(0, r.em.target - r.em.saved))]]);
+}
+function paintReport() { const r = reportData($("#rPeriod").value || "all"); $("#rBody").innerHTML = `<div class="card space-y-3 text-sm"><h3 class="font-bold text-white">${esc(r.label)}</h3><div class="grid grid-cols-3 gap-3">${stat("Income", money(r.income), "pos")}${stat("Expenses", money(r.expenses), "neg")}${stat("Net", money(r.net), r.net >= 0 ? "pos" : "neg")}</div><div class="grid grid-cols-3 gap-3">${stat("Sales", money(r.sales), "pos")}${stat("Purchases", money(r.purchases), "neg")}${stat(r.profit >= 0 ? "Profit" : "Loss", money(Math.abs(r.profit)), r.profit >= 0 ? "pos" : "neg")}</div><div><p class="text-xs text-slate-400 mb-1">Spending by category</p><div class="space-y-2">${bars(r.exCat, r.expenses)}</div></div></div>`; }
+$("#rPeriod").addEventListener("change", paintReport);
+$("#rXls").onclick = () => { const r = reportData($("#rPeriod").value || "all"), a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(['<meta charset="UTF-8">' + reportHtml(r)], { type: "application/vnd.ms-excel" })); a.download = "quofy-summary.xls"; a.click(); };
+$("#rPdf").onclick = () => { const r = reportData($("#rPeriod").value || "all"), f = document.createElement("iframe"); f.style.cssText = "position:fixed;width:0;height:0;border:0"; document.body.appendChild(f);
+  const d = f.contentWindow.document; d.open(); d.write("<title>Quofy – Financial summary</title><style>body{font-family:system-ui,sans-serif;padding:24px}h2,h3{margin:14px 0 6px}table{margin-bottom:10px}</style><h1>Quofy</h1>" + reportHtml(r)); d.close(); f.contentWindow.focus(); f.contentWindow.print(); setTimeout(() => f.remove(), 3000); toast("Choose “Save as PDF” in the print dialog."); };
+$("#cMonth").addEventListener("change", paintFinance); $("#bMonth").addEventListener("change", paintFinance);
+const amt = (v) => { const n = parseFloat(v); return n > 0 && n < 1e12 ? Math.round(n * 100) / 100 : null; };
+const addLedger = async (rec) => { try { await set(P(ACC + "/finance_ledger/" + uid("F")), { ...rec, at: srvNow() }); return true; } catch (e) { toast("Could not save: " + e.message); return false; } };
+$("#cDate").value = $("#bDate").value = todayStr();
+$("#cashForm").addEventListener("submit", async (e) => { e.preventDefault(); const a = amt($("#cAmt").value); if (!a) return toast("Enter an amount above zero.");
+  if (await addLedger({ kind: "cash", type: $("#cType").value, amount: a, category: $("#cCat").value.trim(), date: $("#cDate").value, note: $("#cNote").value.trim() })) { $("#cAmt").value = $("#cNote").value = ""; toast("Entry added."); } });
+$("#bizForm").addEventListener("submit", async (e) => { e.preventDefault(); const a = amt($("#bAmt").value); if (!a) return toast("Enter an amount above zero.");
+  if (await addLedger({ kind: "biz", type: $("#bType").value, amount: a, item: $("#bItem").value.trim(), category: $("#bItem").value.trim(), date: $("#bDate").value, note: $("#bNote").value.trim() })) { $("#bAmt").value = $("#bItem").value = $("#bNote").value = ""; toast("Record added."); } });
+$("#budForm").addEventListener("submit", async (e) => { e.preventDefault(); const l = amt($("#bgLim").value), name = $("#bgCat").value.trim(); if (!l || !name) return toast("Enter a category and a limit.");
+  try { await set(P(ACC + "/finance_budget/" + catKey(name)), { name, limit: l }); e.target.reset(); toast("Budget saved."); } catch (x) { toast("Could not save: " + x.message); } });
+$("#emForm").addEventListener("submit", async (e) => { e.preventDefault(); const f = (id) => Math.max(0, parseFloat($(id).value) || 0);
+  try { await set(P(ACC + "/finance_emergency"), { monthly: f("#emMonthly"), months: Math.min(24, Math.max(1, f("#emMonths"))), saved: f("#emSaved"), contrib: f("#emContrib") }); toast("Plan saved."); } catch (x) { toast("Could not save: " + x.message); } });
+$("#emAvg").onclick = () => { const cash = FL.filter((x) => x.kind === "cash" && x.type === "expense"), ms = [...new Set(cash.map((x) => String(x.date).slice(0, 7)))].sort().slice(-3);
+  if (!ms.length) return toast("Add some expenses first."); $("#emMonthly").value = Math.round(cash.filter((x) => ms.includes(String(x.date).slice(0, 7))).reduce((a, x) => a + (+x.amount || 0), 0) / ms.length * 100) / 100; };
+document.addEventListener("click", async (e) => {
+  const d = e.target.closest("[data-fdel]"), b = e.target.closest("[data-bdel]");
+  if (d && confirm("Delete this entry?")) await remove(P(ACC + "/finance_ledger/" + d.dataset.fdel)).catch((x) => toast("Could not delete: " + x.message));
+  if (b && confirm("Delete this budget?")) await remove(P(ACC + "/finance_budget/" + b.dataset.bdel)).catch((x) => toast("Could not delete: " + x.message));
+});
+function watchFinance() {
+  onValue(P(ACC + "/finance_ledger"), (s) => { FL = rows(s.val()); paintFinance(); }, (e) => fbLog("finance_ledger", e));
+  onValue(P(ACC + "/finance_budget"), (s) => { FB = s.val() || {}; paintFinance(); }, (e) => fbLog("finance_budget", e));
+  onValue(P(ACC + "/finance_emergency"), (s) => { FE = s.val() || {}; paintFinance(); }, (e) => fbLog("finance_emergency", e));
+}
+
+/* ===== Quo AI for sub-admins. Same technology as the main portal: streamed replies through the authenticated Cloud Function
+   (no AI key in this page), animated "thinking" dots, spoken replies, and function calling that opens pages / reads this organization's data. ===== */
+const QUO_PROXY = "https://us-central1-church-electorol.cloudfunctions.net/quoAI";
+const QUO_MODELS = ["gemini-3.8-flash", "gemini-3-flash-preview", "gemini-3.1-flash-lite-preview"];
+const quo = { msgs: [], busy: false, on: false, spk: 0, mute: (() => { try { return localStorage.getItem("quo_mute_sub") === "1"; } catch (e) { return false; } })() };
+const qEl = (id) => document.getElementById(id);
+const qPath = () => "organizeify_accounts/" + CH + "/ai_chats";
+const qBold = (t) => esc(t).replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>").replace(/^\s*[*-]\s+/gm, "• ");
+const DOTS = '<span class="quo-dots" role="status" aria-label="Quo is thinking"><i></i><i></i><i></i></span>';
+const qSave = (m) => { const id = crypto.randomUUID(), rec = { id, sender: m.sender, text: String(m.text).slice(0, 4000), timestamp: m.timestamp, ...(m.took ? { took: m.took } : {}) };
+  quo.msgs.push(rec); quoPaint(); return set(P(qPath() + "/" + id), rec).catch((e) => fbLog("quo chat save", e)); };
+
+/* ---------- voice output (text-to-speech): earlier speech is cancelled first, so voices never overlap ---------- */
+const speechOk = "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined";
+const stopSpeech = () => { quo.spk = 0; if (speechOk) { try { speechSynthesis.cancel(); } catch (e) {} } };
+/* Quo's voice: choose the most natural, professional-sounding voice installed on this device and prepare the text so it is read the way a person would say it */
+const quoVoice = (() => {
+  let cached = null, cachedFor = "";
+  const NOVELTY = /albert|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|jester|organ|princess|ralph|trinoids|whisper|wobble|zarvox|fred|junior|espeak|compact/i;
+  const MALE = /\b(male|man|guy|davis|ryan|brian|andrew|christopher|eric|roger|steffan|mark|david|george|james|richard|daniel|thomas|oliver|aaron|arthur|lee|evan|nathan|tom|rishi|alex|fred|liam|william|prabhat|ravi|mitchell|sean|jason|tony)\b/i, FEMALE = /\b(female|woman|aria|jenny|sonia|libby|clara|emma|samantha|ava|allison|susan|zoe|serena|karen|moira|tessa|victoria|zira|hazel|heera|catherine|linda|michelle|natasha|amy|joanna|salli|kendra|kimberly|ivy|siri)\b/i;
+  const isMale = (v) => !!v && MALE.test(v.name || "") && !FEMALE.test(v.name || "");
+  const score = (v, lg) => { const n = v.name || "", l = String(v.lang || "").toLowerCase().replace("_", "-"); let s = 0;
+    if (l === lg) s += 50; else if (l.slice(0, 2) === lg.slice(0, 2)) s += 30; else return -1e9;
+    if (NOVELTY.test(n)) s -= 300;
+    if (/natural|neural/i.test(n)) s += 100;           /* Microsoft "Online (Natural)" voices: the best on Windows and Edge */
+    if (/online/i.test(n)) s += 20;
+    if (/premium|enhanced|siri/i.test(n)) s += 80;     /* Apple's high-quality voices */
+    if (/google/i.test(n)) s += 45;                    /* Chrome's Google voices */
+    if (/network/i.test(n)) s += 20;                   /* Android network voices sound better than the local ones */
+    if (/\b(aria|jenny|guy|davis|sonia|libby|ryan|clara|emma|brian|andrew|samantha|ava|allison|evan|nathan|susan|zoe|daniel|serena|karen|moira|oliver|tessa|alex)\b/i.test(n)) s += 15;
+    if (isMale(v)) s += 200; else if (FEMALE.test(n)) s -= 90;   /* Quo speaks with a male voice */
+    if (v.localService) s += 3;
+    return s; };
+  const pick = () => { if (typeof speechSynthesis === "undefined") return null; const vs = speechSynthesis.getVoices() || []; if (!vs.length) return null;
+    const lg = String((typeof navigator !== "undefined" && navigator.language) || "en-US").toLowerCase().replace("_", "-"), sig = lg + "|" + vs.length; if (cached && cachedFor === sig) return cached;
+    let want = ""; try { want = localStorage.getItem("quo_voice_name") || ""; } catch (x) {}        /* optional manual choice */
+    let best = want ? vs.find((v) => v.name === want) : null;
+    if (!best) { let top = -1e8; vs.forEach((v) => { const s = score(v, lg); if (s > top) { top = s; best = v; } }); if (top < -100) best = null;   /* only novelty or wrong-language voices: keep the browser default */ }
+    cached = best; cachedFor = sig; return best; };
+  if (typeof speechSynthesis !== "undefined" && speechSynthesis.addEventListener) { try { speechSynthesis.addEventListener("voiceschanged", () => { cached = null; cachedFor = ""; }); } catch (x) {} }
+  /* text as a person would say it: no symbols, no web addresses, abbreviations spelled out, list items as separate sentences */
+  const prep = (t) => String(t || "")
+    .replace(/https?:\/\/\S+/g, " link ")
+    .replace(/\be\.g\.,?/gi, "for example,").replace(/\bi\.e\.,?/gi, "that is,").replace(/\betc\./gi, "and so on.").replace(/\bvs\.?(?=\s)/gi, "versus")
+    .replace(/\bKES\s*([\d][\d,]*(?:\.\d+)?)/g, "$1 Kenyan shillings")
+    .replace(/(\d)\s?%/g, "$1 percent").replace(/\s&\s/g, " and ")
+    .replace(/^\s*(?:[-*•›→]|\d+[.)])\s+/gm, "")
+    .replace(/[•→›]/g, ", ").replace(/[*_`#>~|]/g, "")
+    .replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu, " ")
+    .replace(/([^.!?:;,\s])[ \t]*\n+/g, "$1. ").replace(/\n+/g, " ")
+    .replace(/\s+([,.!?;:])/g, "$1").replace(/([.!?:;])\s*,/g, "$1").replace(/\s+/g, " ").trim();
+  /* short pieces (whole sentences, never cut inside a number) so browsers do not stop mid-speech */
+  const chunks = (c) => { const out = []; (c.match(/.+?(?:[.!?]+(?=\s|$)|$)\s*/g) || [c]).forEach((s) => { s = s.trim(); if (!s) return;
+      if (s.length <= 200) return out.push(s);
+      let cur = ""; (s.match(/[^,;:]+[,;:]?\s*/g) || [s]).map((p) => p.trim()).filter(Boolean).forEach((p) => { if (cur && (cur + " " + p).length > 170) { out.push(cur); cur = p; } else cur = cur ? cur + " " + p : p; }); if (cur) out.push(cur); });
+    return out.flatMap((s) => (s.length > 220 ? s.match(/.{1,200}(\s|$)/g) || [s] : [s])).map((s) => s.trim()).filter(Boolean); };
+  const speak = (text) => { if (typeof speechSynthesis === "undefined" || typeof SpeechSynthesisUtterance === "undefined") return; const c = prep(text); if (!c) return;
+    try { speechSynthesis.resume(); } catch (x) {}
+    const v = pick(), lite = !(v && /natural|neural|premium|enhanced|siri|google|network/i.test(v.name || ""));
+    chunks(c).forEach((ch) => { const u = new SpeechSynthesisUtterance(ch); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = (typeof navigator !== "undefined" && navigator.language) || "en-US";
+      u.rate = lite ? 0.95 : 1; u.pitch = isMale(v) ? 0.95 : 0.7; u.volume = 1; try { speechSynthesis.speak(u); } catch (x) {} }); };
+  return { pick, prep, chunks, speak, score, isMale };
+})();
+const speechClean = quoVoice.prep;
+const sayOut = (txt) => { if (!speechOk || quo.mute) return; quoVoice.speak(txt); };
+const speakStream = (full, final) => { if (!speechOk || quo.mute) return; let end = full.length; if (!final) { const m = [...full.matchAll(/[.!?](?=\s)|\n/g)]; end = m.length ? m[m.length - 1].index + 1 : 0; } if (end <= quo.spk) return; const piece = full.slice(quo.spk, end); quo.spk = end; sayOut(piece); };
+
+/* ---------- what Quo can do: function calling, limited to THIS organization ---------- */
+const qViews = () => { const mode = PERSONAL ? "personal" : "org"; return [...document.querySelectorAll("#svcReal [data-svc]")].filter((b) => b.dataset.m === mode).map((b) => [b.dataset.svc, (b.querySelector(".lbl") || b).textContent.replace(/^\S+\s+/, "").trim()]); };
+const QUO_ALIASES = [[/\b(dashboard|home|overview)\b/, "dash"], [/\b(members?|voters?|communicants?|students?|registry|people)\b/, "voters"], [/\bcandidates?\b/, "cands"], [/\b(voting )?codes?\b/, "codes"], [/\b(paper|proxy)\b/, "proxy"], [/\bresults?\b/, "results"], [/\b(settings?|election settings?|control)\b/, "control"], [/\b(audit|logs?|compliance)\b/, "audit"], [/\bcash ?flow\b/, "fin_cash"], [/\b(business|ledger)\b/, "fin_biz"], [/\b(budget|emergency)\b/, "fin_budget"], [/\b(reports?|export)\b/, "fin_report"]];
+const QUO_FUNCS = [
+  { name: "navigate_to", description: "Open a page of the sub-admin portal. view keys: dash = Election dashboard, voters = Member registry (members / voters list), cands = Candidates, codes = Voting codes, proxy = Paper & proxy votes, results = Results, control = Election settings (open/close voting, quorum), audit = Audit log; personal accounts: fin_cash, fin_biz, fin_budget, fin_report.", parameters: { type: "OBJECT", properties: { view: { type: "STRING", description: "A view key such as dash, voters, codes, results" } }, required: ["view"] } },
+  { name: "get_election_summary", description: "Get live numbers: eligible members, ballots cast, turnout, quorum and whether voting is open." },
+  { name: "find_member", description: "Look up members of this organization by name or phone and say whether each has voted.", parameters: { type: "OBJECT", properties: { query: { type: "STRING" } }, required: ["query"] } },
+  { name: "list_not_voted", description: "List eligible members who have not voted yet.", parameters: { type: "OBJECT", properties: { limit: { type: "INTEGER", description: "default 15, max 30" } } } },
+  { name: "list_candidates", description: "List candidates, optionally for one position.", parameters: { type: "OBJECT", properties: { position: { type: "STRING" } } } },
+  { name: "recent_activity", description: "Show the latest entries of this organization's audit log.", parameters: { type: "OBJECT", properties: { count: { type: "INTEGER", description: "default 8, max 20" } } } },
+  { name: "set_voting_phase", description: "Open, pause or close voting for this organization. Only when the sub-admin clearly asks. phase = open, paused or closed.", parameters: { type: "OBJECT", properties: { phase: { type: "STRING" } }, required: ["phase"] } }];
+const quoFn = async (name, a) => {
+  a = a || {};
+  try {
+    if (name === "navigate_to") { const v = String(a.view || "").toLowerCase().trim(), list = qViews(); let hit = list.find((x) => x[0] === v) || list.find((x) => x[1].toLowerCase().includes(v));
+      if (!hit) { const al = QUO_ALIASES.find(([re]) => re.test(v)); if (al) hit = list.find((x) => x[0] === al[1]); }
+      if (!hit) return "⚠️ I couldn't find that page. You can open: " + list.map((x) => x[1]).join(", ") + ".";
+      showTab(hit[0]); setTimeout(quoClose, 1200); return "✅ Opened " + hit[1] + "."; }
+    const el = eligible(), voted = el.filter((m) => m.voted);
+    if (name === "get_election_summary") { const need = Math.ceil(el.length * (S.quorum || 50) / 100), pct = el.length ? Math.round(voted.length / el.length * 1000) / 10 : 0;
+      return "📊 " + (CHNAME || "Your organization") + "\n• Voting: " + ({ open: "open", paused: "paused", closed: "closed", scheduled: "scheduled" }[S.phase] || S.phase) + "\n• " + T.eligible + ": " + el.length + "\n• Ballots cast: " + voted.length + " (" + pct + "%)\n• Quorum: " + (S.quorum || 50) + "% = " + need + " ballots" + (el.length && voted.length >= need ? " ✅ met" : " (not yet met)") + "\n• Candidates: " + S.candidates.length; }
+    if (name === "find_member") { const q = String(a.query || "").toLowerCase().trim(); if (q.length < 2) return "⚠️ Give me at least 2 letters of the name.";
+      const hits = S.members.filter((m) => (m.name + " " + m.phone).toLowerCase().includes(q)); if (!hits.length) return "No member matches \"" + q + "\".";
+      return "👥 " + hits.length + " match" + (hits.length === 1 ? "" : "es") + ":\n" + hits.slice(0, 8).map((m) => "• " + m.name + " (" + m.role + ") · " + (m.voted ? "voted" + (m.via ? " via " + m.via : "") : "not voted yet")).join("\n") + (hits.length > 8 ? "\n…and " + (hits.length - 8) + " more." : ""); }
+    if (name === "list_not_voted") { const n = Math.min(30, Math.max(1, parseInt(a.limit, 10) || 15)), left = el.filter((m) => !m.voted); if (!left.length) return el.length ? "🎉 Everyone eligible has voted." : "There are no eligible members yet.";
+      return "⏳ " + left.length + " have not voted yet:\n" + left.slice(0, n).map((m) => "• " + m.name).join("\n") + (left.length > n ? "\n…and " + (left.length - n) + " more." : ""); }
+    if (name === "list_candidates") { const p = String(a.position || "").toLowerCase().trim(), cs = S.candidates.filter((c) => !p || String(c.position).toLowerCase().includes(p)); if (!cs.length) return "No candidates" + (p ? " for that position" : "") + " yet.";
+      const g = {}; cs.forEach((c) => { (g[c.position] = g[c.position] || []).push(c.name + (c.status && c.status !== "Approved" ? " (" + c.status + ")" : "")); });
+      return "🧑‍💼 Candidates:\n" + Object.entries(g).map(([k, v]) => "• " + k + ": " + v.join(", ")).join("\n"); }
+    if (name === "recent_activity") { const n = Math.min(20, Math.max(1, parseInt(a.count, 10) || 8)); return S.logs.length ? "🧾 Latest activity:\n" + S.logs.slice(0, n).map((l) => "• " + l.time + " – " + l.action).join("\n") : "No activity recorded yet."; }
+    if (name === "set_voting_phase") { const ph = String(a.phase || "").toLowerCase(); if (PERSONAL) return "⚠️ Voting is not part of a personal account.";
+      if (!["open", "paused", "closed"].includes(ph)) return "⚠️ Phase must be open, paused or closed.";
+      if (S.phase === ph) return "Voting is already " + ph + ".";
+      if (ph !== "closed" && !confirm("Set voting to " + ph.toUpperCase() + " for " + (CHNAME || "your organization") + "?")) return "Cancelled. Nothing was changed.";
+      const b = document.querySelector('[data-view="control"] [data-phase="' + ph + '"]'); if (!b) return "⚠️ I couldn't find that control. Open Election settings and use the buttons there.";
+      b.click(); await new Promise((r) => setTimeout(r, 400)); return S.phase === ph ? "✅ Voting is now " + ph + "." : "Cancelled. Nothing was changed."; }
+    return "⚠️ I don't know how to do \"" + name + "\".";
+  } catch (x) { fbLog("quo function " + name, x); return "⚠️ " + name + " failed: " + x.message; }
+};
+/* instant, no-AI shortcuts for clear commands */
+const quoLocal = (t) => {
+  const q = t.trim().toLowerCase().replace(/[!.?]+$/, "");
+  if (/^(please )?(election )?(summary|status|turnout|how (is|are) (the )?(voting|turnout|election)( going)?)$/.test(q)) return quoFn("get_election_summary");
+  if (/^(please )?(who|which (members?|voters?)) (has ?n['o]?t|have ?n['o]?t|hasn't|haven't|didn't|did not|has not|have not) (yet )?voted( yet)?$/.test(q)) return quoFn("list_not_voted");
+  const m = /^(?:please |pls |quo,? )?(?:can you |could you )?(?:open|go to|goto|take me to|show me|show|navigate to|switch to)\s+(?:the |my )?(.+?)(?:\s+(?:page|tab|section|screen|please))*$/.exec(q);
+  if (m && m[1].split(/\s+/).length <= 4) { const al = QUO_ALIASES.find(([re]) => re.test(m[1])); if (al) return quoFn("navigate_to", { view: al[1] }); }
+  return null;
+};
+const quoSystem = () => { const el = eligible(), cand = {}; S.candidates.forEach((c) => { (cand[c.position] = cand[c.position] || []).push(c.name); });
+  const snap = { organization: CHNAME || "", accountType: PERSONAL ? "personal finance" : T.name, votingPhase: S.phase, quorumPercent: S.quorum || 50, eligibleMembers: el.length, ballotsCast: el.filter((m) => m.voted).length, positions: S.positions, candidatesByPosition: cand, totalMembers: S.members.length };
+  return "You are Quo, a smart, friendly assistant built into Quofy, the sub-admin portal for " + (CHNAME || "this organization") + ". You were invented by MrKemei Elvis; say so if asked who made you.\n"
+    + "You help the sub-admin run THEIR OWN organization: members, candidates, voting codes, paper and proxy votes, results, the audit log" + (PERSONAL ? ", and personal finance (cashflow, ledger, budget)" : "") + ". You can also answer any general question helpfully.\n"
+    + "RULES: Keep answers short and easy to read on a phone. Use the functions to open pages or look up data instead of guessing numbers. Never ask for, repeat or reveal passcodes or voting codes (send the sub-admin to the Voting codes page). You only know this one organization and cannot touch other organizations or the main admin's settings. Only change voting status when clearly asked.\nPORTAL DATA (no member names or codes): " + JSON.stringify(snap); };
+
+/* ---------- streaming call to the Cloud Function proxy ---------- */
+async function quoStream(contents, onText, calls) {
+  let lastErr = "";
+  for (const model of QUO_MODELS) {
+    const ctl = new AbortController(), to = setTimeout(() => ctl.abort(), 40000);
+    try {
+      const tok = await auth.currentUser.getIdToken();
+      const r = await fetch(QUO_PROXY, { method: "POST", signal: ctl.signal, headers: { "Content-Type": "application/json", Authorization: "Bearer " + tok },
+        body: JSON.stringify({ model, stream: true, payload: { systemInstruction: { parts: [{ text: quoSystem() }] }, tools: [{ functionDeclarations: QUO_FUNCS }], contents, generationConfig: { maxOutputTokens: 700, temperature: 0.7, topP: 0.95 } } }) });
+      if (r.status === 429) { clearTimeout(to); throw Object.assign(new Error("You're asking too fast. Please wait a moment and try again."), { stop: true }); }
+      if (!r.ok) { const j = await r.json().catch(() => ({})); lastErr = (j.error && j.error.message) || "HTTP " + r.status; clearTimeout(to); if (r.status === 401 || r.status === 403) throw Object.assign(new Error("Your session expired. Please sign in again."), { stop: true }); continue; }
+      const rd = r.body.getReader(), dec = new TextDecoder(); let buf = "", full = "", last = 0;
+      for (;;) { const { done, value } = await rd.read(); if (done) break; buf += dec.decode(value, { stream: true }); const lines = buf.split("\n"); buf = lines.pop();
+        for (const ln of lines) { if (!ln.startsWith("data:")) continue; let j; try { j = JSON.parse(ln.slice(5)); } catch (e) { continue; }
+          const ps = (j && j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts) || [];
+          ps.forEach((x) => { if (x && x.functionCall && x.functionCall.name) calls.push(x.functionCall); });
+          const t = ps.filter((x) => x && !x.thought && typeof x.text === "string").map((x) => x.text).join("");
+          if (t) { full += t; if (Date.now() - last > 60) { last = Date.now(); onText(full); } } } }
+      clearTimeout(to); if (full) onText(full); return full.trim();
+    } catch (x) { clearTimeout(to); if (x.stop) throw x; lastErr = x.name === "AbortError" ? "The AI was too slow" : x.message || "Network error"; }
+  }
+  throw new Error(lastErr || "No AI model answered");
+}
+
+/* ---------- chat window ---------- */
+const bub = (ai, html) => '<div class="qb ' + (ai ? "ai" : "me") + '">' + html + "</div>";
+function quoPaint(live) {
+  const box = qEl("quoMsgs"); if (!box) return; const near = box.scrollHeight - box.scrollTop - box.clientHeight < 120;
+  let h = bub(true, "Hello! I'm <strong>Quo</strong>, your assistant for " + esc(CHNAME || "your organization") + ". I can open pages, check turnout, find members and answer questions. Try the shortcuts below.");
+  h += quo.msgs.slice(-80).map((m) => bub(m.sender === "Quo", qBold(m.text))).join("");
+  if (quo.busy) h += bub(true, live ? qBold(live) : DOTS); /* the dots disappear as soon as Quo starts streaming */
+  box.innerHTML = h; if (near || quo.busy) box.scrollTop = box.scrollHeight;
+}
+function quoOpen() { qEl("quoPane").classList.add("open"); qEl("quoPane").setAttribute("aria-hidden", "false"); qEl("quoSub").textContent = (CHNAME || "") + " · sub-admin assistant"; quoPaint(); setTimeout(() => qEl("quoIn").focus(), 50); }
+function quoClose() { qEl("quoPane").classList.remove("open"); qEl("quoPane").setAttribute("aria-hidden", "true"); stopSpeech(); }
+async function quoAsk(raw) {
+  const t = String(raw || "").trim().slice(0, 2000); if (!t || quo.busy) return;
+  qEl("quoIn").value = ""; qEl("quoIn").style.height = "auto"; stopSpeech(); const ts = Date.now();
+  const hist = quo.msgs.slice(-16).map((m) => ({ role: m.sender === "Quo" ? "model" : "user", parts: [{ text: String(m.text).slice(0, 2000) }] })); hist.push({ role: "user", parts: [{ text: t }] });
+  while (hist.length && hist[0].role !== "user") hist.shift();
+  const merged = []; hist.forEach((m) => { const p = merged[merged.length - 1]; if (p && p.role === m.role) p.parts[0].text += "\n" + m.parts[0].text; else merged.push(m); });
+  qSave({ sender: "Sub", text: t, timestamp: ts });
+  quo.busy = true; quoPaint("");                       /* thinking dots appear immediately */
+  let ans = "";
+  try {
+    const local = quoLocal(t);
+    if (local) ans = await local;
+    else { const calls = [];
+      ans = await quoStream(merged, (tx) => { quoPaint(tx); speakStream(tx, false); }, calls);
+      if (calls.length) { const outs = []; for (const c of calls.slice(0, 3)) outs.push(await quoFn(c.name, c.args)); ans = [ans, outs.join("\n\n")].filter(Boolean).join("\n\n"); }
+      if (!ans) ans = "I didn't get a reply. Please try again."; }
+  } catch (x) { fbLog("quo", x); ans = "⚠️ " + (x.message && !/failed to fetch|network/i.test(x.message) ? String(x.message).replace(/gemini|google/gi, "AI").slice(0, 120) : "I can't reach the AI. Check your connection and try again."); }
+  quo.busy = false;
+  if (/^⚠️/.test(ans)) stopSpeech(); else speakStream(ans, true);
+  await qSave({ sender: "Quo", text: ans, timestamp: Date.now(), took: Date.now() - ts }); quoPaint();
+}
+function quoInit() {
+  if (quo.on) return; quo.on = true;
+  qEl("quoFab").classList.remove("hidden");
+  qEl("quoFab").onclick = quoOpen; qEl("quoClose").onclick = quoClose;
+  qEl("quoForm").onsubmit = (e) => { e.preventDefault(); quoAsk(qEl("quoIn").value); };
+  qEl("quoIn").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !/Android|iPhone|iPad|Mobile/i.test(navigator.userAgent)) { e.preventDefault(); quoAsk(qEl("quoIn").value); } });
+  qEl("quoIn").addEventListener("input", (e) => { e.target.style.height = "auto"; e.target.style.height = Math.min(e.target.scrollHeight, 128) + "px"; });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") quoClose(); });
+  const paintMute = () => { qEl("quoMute").textContent = quo.mute ? "🔇" : "🔊"; qEl("quoMute").style.opacity = speechOk ? 1 : .4; qEl("quoMute").setAttribute("aria-label", quo.mute ? "Turn voice on" : "Turn voice off"); }; paintMute();
+  qEl("quoMute").onclick = () => { quo.mute = !quo.mute; try { localStorage.setItem("quo_mute_sub", quo.mute ? "1" : "0"); } catch (e) {} if (quo.mute) stopSpeech(); paintMute(); };
+  qEl("quoClear").onclick = () => { if (quo.busy || !confirm("Clear this chat?")) return; stopSpeech(); remove(P(qPath())).catch((e) => toast("Could not clear: " + fbMsg(e))); };
+  const chips = PERSONAL ? ["Open budget", "Open reports"] : ["Election summary", "Who hasn't voted?", "Show results", "Open voting codes", "Open members"];
+  qEl("quoChips").innerHTML = chips.map((c) => '<button type="button" class="btn2 whitespace-nowrap" data-q="' + esc(c) + '">' + esc(c) + "</button>").join("");
+  qEl("quoChips").onclick = (e) => { const b = e.target.closest("[data-q]"); if (b) quoAsk(b.dataset.q); };
+  onValue(P(qPath()), (s) => { quo.msgs = rows(s.val()).sort((a, b) => a.timestamp - b.timestamp);
+    if (quo.msgs.length > 200) { const up = {}; quo.msgs.slice(0, quo.msgs.length - 200).forEach((m) => { up[qPath() + "/" + m.id] = null; }); update(ref(fdb), up).catch(() => {}); }
+    if (!quo.busy) quoPaint(); }, (e) => fbLog("quo chat", e));
+}
+setInterval(() => { if (user && CH && !quo.on) quoInit(); }, 400);
+</script>
+</body>
+      </html>
